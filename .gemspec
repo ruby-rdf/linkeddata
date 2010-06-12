@@ -33,7 +33,7 @@ GEMSPEC = Gem::Specification.new do |gem|
   gem.add_runtime_dependency     'rdf',            '~> 0.1.10'
   gem.add_runtime_dependency     'rdf-isomorphic', '~> 0.1.2'
   gem.add_runtime_dependency     'rdf-raptor',     '~> 0.3.0'
-  gem.add_runtime_dependency     'rdf-json',       '~> 0.1.0'
+  gem.add_runtime_dependency     'rdf-json',       '~> 0.1.1'
   gem.add_runtime_dependency     'rdf-trix',       '~> 0.0.3'
   gem.post_install_message       = nil
 end

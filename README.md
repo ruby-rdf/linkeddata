@@ -36,7 +36,7 @@ Dependencies
 * [RDF.rb](http://rubygems.org/gems/rdf) (>= 0.1.10)
 * [RDF::Isomorphic](http://rubygems.org/gems/rdf-isomorphic) (>= 0.1.2)
 * [RDF::Raptor](http://rubygems.org/gems/rdf-raptor) (>= 0.3.0)
-* [RDF::JSON](http://rubygems.org/gems/rdf-json) (>= 0.1.0)
+* [RDF::JSON](http://rubygems.org/gems/rdf-json) (>= 0.1.1)
 * [RDF::TriX](http://rubygems.org/gems/rdf-trix) (>= 0.0.3)
 
 Installation
