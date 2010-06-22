@@ -9,7 +9,7 @@ GEMSPEC = Gem::Specification.new do |gem|
   gem.homepage           = 'http://rdf.rubyforge.org/'
   gem.license            = 'Public Domain' if gem.respond_to?(:license=)
   gem.summary            = 'Linked Data for Ruby.'
-  gem.description        = 'A metadistribution of RDF.rb including all parsing/serialization plugins.'
+  gem.description        = 'A metadistribution of RDF.rb including a full set of parsing/serialization plugins.'
   gem.rubyforge_project  = 'datagraph'
 
   gem.authors            = ['Datagraph']
@@ -25,15 +25,15 @@ GEMSPEC = Gem::Specification.new do |gem|
   gem.test_files         = %w()
   gem.has_rdoc           = false
 
-  gem.required_ruby_version      = '>= 1.8.2'
+  gem.required_ruby_version      = '>= 1.8.1'
   gem.requirements               = []
-  gem.add_development_dependency 'rdf-spec',       '~> 0.1.10'
-  gem.add_development_dependency 'rspec',          '~> 1.3.0'
-  gem.add_development_dependency 'yard' ,          '~> 0.5.5'
-  gem.add_runtime_dependency     'rdf',            '~> 0.1.10'
-  gem.add_runtime_dependency     'rdf-isomorphic', '~> 0.1.2'
-  gem.add_runtime_dependency     'rdf-raptor',     '~> 0.3.0'
-  gem.add_runtime_dependency     'rdf-json',       '~> 0.1.1'
-  gem.add_runtime_dependency     'rdf-trix',       '~> 0.0.3'
+  gem.add_runtime_dependency     'rdf-trix',       '~> 0.2.0'
+  gem.add_runtime_dependency     'rdf-json',       '~> 0.2.0'
+  gem.add_runtime_dependency     'rdf-raptor',     '~> 0.4.0'
+  gem.add_runtime_dependency     'rdf-isomorphic', '~> 0.2.0'
+  gem.add_runtime_dependency     'rdf',            '~> 0.2.0'
+  gem.add_development_dependency 'yard' ,          '>= 0.5.6'
+  gem.add_development_dependency 'rspec',          '>= 1.3.0'
+  gem.add_development_dependency 'rdf-spec',       '~> 0.2.0'
   gem.post_install_message       = nil
 end

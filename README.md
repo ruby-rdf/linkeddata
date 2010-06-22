@@ -33,11 +33,11 @@ Documentation
 Dependencies
 ------------
 
-* [RDF.rb](http://rubygems.org/gems/rdf) (>= 0.1.10)
-* [RDF::Isomorphic](http://rubygems.org/gems/rdf-isomorphic) (>= 0.1.2)
-* [RDF::Raptor](http://rubygems.org/gems/rdf-raptor) (>= 0.3.0)
-* [RDF::JSON](http://rubygems.org/gems/rdf-json) (>= 0.1.1)
-* [RDF::TriX](http://rubygems.org/gems/rdf-trix) (>= 0.0.3)
+* [RDF.rb](http://rubygems.org/gems/rdf) (>= 0.2.0)
+* [RDF::Isomorphic](http://rubygems.org/gems/rdf-isomorphic) (>= 0.2.0)
+* [RDF::Raptor](http://rubygems.org/gems/rdf-raptor) (>= 0.4.0)
+* [RDF::JSON](http://rubygems.org/gems/rdf-json) (>= 0.2.0)
+* [RDF::TriX](http://rubygems.org/gems/rdf-trix) (>= 0.2.0)
 
 Installation
 ------------
