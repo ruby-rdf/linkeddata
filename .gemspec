@@ -12,11 +12,11 @@ GEMSPEC = Gem::Specification.new do |gem|
   gem.description        = 'A metadistribution of RDF.rb including a full set of parsing/serialization plugins.'
   gem.rubyforge_project  = 'datagraph'
 
-  gem.authors            = ['Datagraph']
+  gem.author             = 'Datagraph'
   gem.email              = 'datagraph@googlegroups.com'
 
   gem.platform           = Gem::Platform::RUBY
-  gem.files              = %w(AUTHORS README UNLICENSE VERSION lib/linkeddata.rb)
+  gem.files              = %w(AUTHORS CREDITS README UNLICENSE VERSION lib/linkeddata.rb)
   gem.bindir             = %q(bin)
   gem.executables        = %w()
   gem.default_executable = gem.executables.first
