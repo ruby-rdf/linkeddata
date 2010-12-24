@@ -29,7 +29,9 @@ GEMSPEC = Gem::Specification.new do |gem|
   gem.requirements               = []
   gem.add_runtime_dependency     'rdf-trix',       '~> 0.2.0'
   gem.add_runtime_dependency     'rdf-json',       '~> 0.2.0'
-  gem.add_runtime_dependency     'rdf-raptor',     '~> 0.4.0'
+  gem.add_runtime_dependency     'rdf-n3',         '~> 0.2.0'
+  gem.add_runtime_dependency     'rdf-rdfa',       '~> 0.2.0'
+  gem.add_runtime_dependency     'rdf-rdfxml',     '~> 0.2.0'
   gem.add_runtime_dependency     'rdf-isomorphic', '>= 0.2.0'
   gem.add_runtime_dependency     'rdf',            '~> 0.2.3'
   gem.add_development_dependency 'yard',           '>= 0.5.8'

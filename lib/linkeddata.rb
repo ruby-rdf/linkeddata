@@ -7,8 +7,14 @@ module LinkedData
   # @see http://rubygems.org/gems/rdf-isomorphic
   require 'rdf/isomorphic'
 
-  # @see http://rubygems.org/gems/rdf-raptor
-  require 'rdf/raptor'
+  # @see http://rubygems.org/gems/rdf-n3
+  require 'rdf/n3'
+
+  # @see http://rubygems.org/gems/rdf-rdfa
+  require 'rdf/rdfa'
+
+  # @see http://rubygems.org/gems/rdf-rdfxml
+  require 'rdf/rdfxml'
 
   # @see http://rubygems.org/gems/rdf-json
   require 'rdf/json'
