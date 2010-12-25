@@ -14,6 +14,7 @@ Features
 * Includes [RDF/XML][] support using the [RDF::RDFXML][] gem.
 * Includes [Turtle][] and [Notation3][] support using the [RDF::N3][] gem.
 * Includes [RDFa][] support using the [RDF::RDFa][] gem.
+* Includes [RDF/JSON][] support using the [RDF::JSON][] gem.
 * Includes [TriX][] support using the [RDF::TriX][] gem.
 * Maintains release parity with RDF.rb.
 * Specifies all gem dependencies in a [production-safe][versioning] manner.
@@ -33,13 +34,13 @@ Documentation
 Dependencies
 ------------
 
-* [RDF.rb](http://rubygems.org/gems/rdf) (>= 0.2.3)
-* [RDF::Isomorphic](http://rubygems.org/gems/rdf-isomorphic) (>= 0.2.0)
-* [RDF::N3](http://rubygems.org/gems/rdf-n3) (>= 0.2.0)
-* [RDF::RDFa](http://rubygems.org/gems/rdf-rdfa) (>= 0.2.0)
-* [RDF::RDFXML](http://rubygems.org/gems/rdf-rdfxml) (>= 0.2.0)
-* [RDF::JSON](http://rubygems.org/gems/rdf-json) (>= 0.2.0)
-* [RDF::TriX](http://rubygems.org/gems/rdf-trix) (>= 0.2.0)
+* [RDF.rb](http://rubygems.org/gems/rdf) (>= 0.3.0)
+* [RDF::Isomorphic](http://rubygems.org/gems/rdf-isomorphic) (>= 0.3.0)
+* [RDF::JSON](http://rubygems.org/gems/rdf-json) (>= 0.3.0)
+* [RDF::N3](http://rubygems.org/gems/rdf-n3) (>= 0.3.0)
+* [RDF::RDFa](http://rubygems.org/gems/rdf-rdfa) (>= 0.3.0)
+* [RDF::RDFXML](http://rubygems.org/gems/rdf-rdfxml) (>= 0.3.0)
+* [RDF::TriX](http://rubygems.org/gems/rdf-trix) (>= 0.3.0)
 
 Installation
 ------------
@@ -52,14 +53,14 @@ To install the latest official release of the gem, do:
 License
 -------
 
-This is free and unencumbered public domain software. For more
-information, see <http://unlicense.org/> or the accompanying UNLICENSE file.
+This is free and unencumbered public domain software. For more information,
+see <http://unlicense.org/> or the accompanying {file:UNLICENSE} file.
 
 [RDF.rb]:         http://rdf.rubyforge.org/
+[RDF::JSON]:      http://rdf.rubyforge.org/json/
 [RDF::N3]:        http://rdoc.info/github/gkellogg/rdf-n3
 [RDF::RDFa]:      http://rdoc.info/github/gkellogg/rdf-rdfa
 [RDF::RDFXML]:    http://rdoc.info/github/gkellogg/rdf-rdfxml
-[RDF::JSON]:      http://rdf.rubyforge.org/json/
 [RDF::TriX]:      http://rdf.rubyforge.org/trix/
 [SPARQL::Client]: http://sparql.rubyforge.org/client/
 [Linked Data]:    http://linkeddata.org/

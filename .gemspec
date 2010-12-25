@@ -27,15 +27,15 @@ Gem::Specification.new do |gem|
 
   gem.required_ruby_version      = '>= 1.8.1'
   gem.requirements               = []
-  gem.add_runtime_dependency     'rdf-trix',       '~> 0.2.0'
-  gem.add_runtime_dependency     'rdf-json',       '~> 0.2.0'
-  gem.add_runtime_dependency     'rdf-n3',         '~> 0.2.0'
-  gem.add_runtime_dependency     'rdf-rdfa',       '~> 0.2.0'
-  gem.add_runtime_dependency     'rdf-rdfxml',     '~> 0.2.0'
-  gem.add_runtime_dependency     'rdf-isomorphic', '>= 0.2.0'
-  gem.add_runtime_dependency     'rdf',            '~> 0.2.3'
-  gem.add_development_dependency 'yard',           '>= 0.5.8'
-  gem.add_development_dependency 'rspec',          '>= 1.3.0'
-  gem.add_development_dependency 'rdf-spec',       '~> 0.2.3'
+  gem.add_runtime_dependency     'rdf-trix',       '~> 0.3.0'
+  gem.add_runtime_dependency     'rdf-rdfxml',     '~> 0.3.0'
+  gem.add_runtime_dependency     'rdf-rdfa',       '~> 0.3.0'
+  gem.add_runtime_dependency     'rdf-n3',         '~> 0.3.0'
+  gem.add_runtime_dependency     'rdf-json',       '~> 0.3.0'
+  gem.add_runtime_dependency     'rdf-isomorphic', '>= 0.3.0'
+  gem.add_runtime_dependency     'rdf',            '~> 0.3.0'
+  gem.add_development_dependency 'yard',           '>= 0.6.0'
+  gem.add_development_dependency 'rspec',          '>= 2.1.0'
+  gem.add_development_dependency 'rdf-spec',       '~> 0.3.0'
   gem.post_install_message       = nil
 end
