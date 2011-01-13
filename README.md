@@ -34,8 +34,8 @@ Documentation
 Dependencies
 ------------
 
-* [RDF.rb](http://rubygems.org/gems/rdf) (>= 0.3.0)
-* [RDF::Isomorphic](http://rubygems.org/gems/rdf-isomorphic) (>= 0.3.0)
+* [RDF.rb](http://rubygems.org/gems/rdf) (>= 0.3.1)
+* [RDF::Isomorphic](http://rubygems.org/gems/rdf-isomorphic) (>= 0.3.1)
 * [RDF::JSON](http://rubygems.org/gems/rdf-json) (>= 0.3.0)
 * [RDF::N3](http://rubygems.org/gems/rdf-n3) (>= 0.3.0)
 * [RDF::RDFa](http://rubygems.org/gems/rdf-rdfa) (>= 0.3.0)
