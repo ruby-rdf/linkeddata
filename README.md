@@ -19,8 +19,8 @@ Features
 * Includes [TriX][] support using the [RDF::TriX][] gem.
 * Includes [Turtle][] support using the [RDF::Turtle][] gem.
 * Includes [JSON-LD][] support using the [JSON::LD][] gem.
+* Includes [SPARQL][] support using the [SPARQL][SPARQL gem] gem (soft dependency).
 * Maintains release parity with RDF.rb.
-* Specifies all gem dependencies in a [production-safe][versioning] manner.
 
 Examples
 --------
@@ -45,8 +45,9 @@ Dependencies
 * [RDF::RDFa](http://rubygems.org/gems/rdf-rdfa) (>= 0.3.7)
 * [RDF::RDFXML](http://rubygems.org/gems/rdf-rdfxml) (>= 0.3.5)
 * [RDF::TriX](http://rubygems.org/gems/rdf-trix) (>= 0.3.0)
-* [RDF::Turtle](http://rubygems.org/gems/rdf-turtle) (>= 0.0.6)
+* [RDF::Turtle](http://rubygems.org/gems/rdf-turtle) (>= 0.1.0)
 * [JSON::LD](http://rubygems.org/gems/json-ld) (>= 0.0.8)
+* Soft dependency on [SPARQL](http://rubygems.org/gems/sparql)
 
 Installation
 ------------
@@ -71,6 +72,7 @@ see <http://unlicense.org/> or the accompanying {file:UNLICENSE} file.
 [RDF::TriX]:      http://rdf.rubyforge.org/trix/
 [RDF::Turtle]:    http://rdoc.info/github/gkellogg/rdf-turtle/master/frames
 [JSON::LD]:       http://rdoc.info/github/gkellogg/json-ld/master/frames
+[SPARQL gem]:     http://rdoc.info/github/gkellogg/sparql/master/frames
 [JSON-LD]:        http://json-ld.org/
 [Linked Data]:    http://linkeddata.org/
 [Microdata]:      http://en.wikipedia.org/wiki/Microdata_(HTML)
@@ -80,7 +82,7 @@ see <http://unlicense.org/> or the accompanying {file:UNLICENSE} file.
 [RDF/JSON]:       http://n2.talis.com/wiki/RDF_JSON_Specification
 [RDF/XML]:        http://en.wikipedia.org/wiki/RDF/XML
 [RDFa]:           http://en.wikipedia.org/wiki/RDFa
-[SPARQL::Client]: http://sparql.rubyforge.org/client/
+[SPARQL]:         http://en.wikipedia.org/wiki/Sparql
 [TriX]:           http://www.w3.org/2004/03/trix/
 [Turtle]:         http://en.wikipedia.org/wiki/Turtle_(syntax)
 [versioning]:     http://blog.zenspider.com/2008/10/rubygems-howto-preventing-cata.html
