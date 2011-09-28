@@ -48,6 +48,7 @@ Dependencies
 * [RDF::Turtle](http://rubygems.org/gems/rdf-turtle) (>= 0.1.0)
 * [JSON::LD](http://rubygems.org/gems/json-ld) (>= 0.0.8)
 * Soft dependency on [SPARQL](http://rubygems.org/gems/sparql)
+* Soft dependency on [SPARQL::Client](http://rubygems.org/gems/sparql-client)
 
 Installation
 ------------
@@ -73,6 +74,7 @@ see <http://unlicense.org/> or the accompanying {file:UNLICENSE} file.
 [RDF::Turtle]:    http://rdoc.info/github/gkellogg/rdf-turtle/master/frames
 [JSON::LD]:       http://rdoc.info/github/gkellogg/json-ld/master/frames
 [SPARQL gem]:     http://rdoc.info/github/gkellogg/sparql/master/frames
+[SPARQL::Client]: http://sparql.rubyforge.org/client/
 [JSON-LD]:        http://json-ld.org/
 [Linked Data]:    http://linkeddata.org/
 [Microdata]:      http://en.wikipedia.org/wiki/Microdata_(HTML)

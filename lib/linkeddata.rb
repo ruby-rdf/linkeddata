@@ -38,5 +38,12 @@ module LinkedData
     # SPARQL is merely a "soft" convenience dependency.
   end
 
+  # @see http://rubygems.org/gems/sparql-client
+  begin
+    require 'sparql/client'
+  rescue LoadError
+    # SPARQL::Client is merely a "soft" convenience dependency.
+  end
+
   include RDF
 end
