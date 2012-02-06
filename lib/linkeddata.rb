@@ -25,6 +25,9 @@ module LinkedData
   # @see http://rubygems.org/gems/rdf-rdfxml
   require 'rdf/rdfxml'
 
+  # @see http://rubygems.org/gems/rdf-trig
+  require 'rdf/trig'
+
   # @see http://rubygems.org/gems/rdf-trix
   require 'rdf/trix'
 
