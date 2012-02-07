@@ -35,7 +35,7 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency     'rdf-rdfa',       '>= 0.3.9'
   gem.add_runtime_dependency     'rdf-rdfxml',     '>= 0.3.5'
   gem.add_runtime_dependency     'rdf-trig',       '>= 0.1.1'
-  gem.add_runtime_dependency     'rdf-trix',       '>= 0.3.1'
+  gem.add_runtime_dependency     'rdf-trix',       '>= 0.3.0'
   gem.add_runtime_dependency     'rdf-turtle',     '>= 0.1.1'
   gem.add_runtime_dependency     'json-ld',        '>= 0.1.1'
   gem.add_development_dependency 'yard',           '>= 0.7.2'

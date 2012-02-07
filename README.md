@@ -44,9 +44,10 @@ Dependencies
 * [RDF::N3](http://rubygems.org/gems/rdf-n3) (>= 0.3.6)
 * [RDF::RDFa](http://rubygems.org/gems/rdf-rdfa) (>= 0.3.7)
 * [RDF::RDFXML](http://rubygems.org/gems/rdf-rdfxml) (>= 0.3.5)
+* [RDF::TriG](http://rubygems.org/gems/rdf-trig) (>= 0.1.1)
 * [RDF::TriX](http://rubygems.org/gems/rdf-trix) (>= 0.3.0)
 * [RDF::Turtle](http://rubygems.org/gems/rdf-turtle) (>= 0.1.0)
-* [JSON::LD](http://rubygems.org/gems/json-ld) (>= 0.0.8)
+* [JSON::LD](http://rubygems.org/gems/json-ld) (>= 0.1.1)
 * Soft dependency on [SPARQL](http://rubygems.org/gems/sparql)
 * Soft dependency on [SPARQL::Client](http://rubygems.org/gems/sparql-client)
 
