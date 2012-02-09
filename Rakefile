@@ -7,3 +7,8 @@ begin
   require 'rakefile' # http://github.com/bendiken/rakefile
 rescue LoadError => e
 end
+
+desc "Build the linkeddata-#{File.read('VERSION').chomp}.gem file"
+task :build do
+  sh "gem build .gemspec"
+end
