@@ -67,14 +67,14 @@ see <http://unlicense.org/> or the accompanying {file:UNLICENSE} file.
 
 [RDF.rb]:         http://rdf.rubyforge.org/
 [RDF::JSON]:      http://rdf.rubyforge.org/json/
-[RDF::Microdata]: http://rdoc.info/github/gkellogg/rdf-microdata/master/frames
-[RDF::N3]:        http://rdoc.info/github/gkellogg/rdf-n3/master/frames
-[RDF::RDFa]:      http://rdoc.info/github/gkellogg/rdf-rdfa/master/frames
-[RDF::RDFXML]:    http://rdoc.info/github/gkellogg/rdf-rdfxml/master/frames
+[RDF::Microdata]: http://rdoc.info/github/ruby-rdf/rdf-microdata/master/frames
+[RDF::N3]:        http://rdoc.info/github/ruby-rdf/rdf-n3/master/frames
+[RDF::RDFa]:      http://rdoc.info/github/ruby-rdf/rdf-rdfa/master/frames
+[RDF::RDFXML]:    http://rdoc.info/github/ruby-rdf/rdf-rdfxml/master/frames
 [RDF::TriX]:      http://rdf.rubyforge.org/trix/
-[RDF::Turtle]:    http://rdoc.info/github/gkellogg/rdf-turtle/master/frames
+[RDF::Turtle]:    http://rdoc.info/github/ruby-rdf/rdf-turtle/master/frames
 [JSON::LD]:       http://rdoc.info/github/gkellogg/json-ld/master/frames
-[SPARQL gem]:     http://rdoc.info/github/gkellogg/sparql/master/frames
+[SPARQL gem]:     http://rdoc.info/github/ruby-rdf/sparql/master/frames
 [SPARQL::Client]: http://sparql.rubyforge.org/client/
 [JSON-LD]:        http://json-ld.org/
 [Linked Data]:    http://linkeddata.org/
