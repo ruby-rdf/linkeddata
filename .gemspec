@@ -6,14 +6,14 @@ Gem::Specification.new do |gem|
   gem.date               = File.mtime('VERSION').strftime('%Y-%m-%d')
 
   gem.name               = 'linkeddata'
-  gem.homepage           = 'http://rdf.rubyforge.org/'
+  gem.homepage           = 'http://github.com/ruby-rdf/linkeddata'
   gem.license            = 'Public Domain' if gem.respond_to?(:license=)
   gem.summary            = 'Linked Data for Ruby.'
   gem.description        = 'A metadistribution of RDF.rb including a full set of parsing/serialization plugins.'
   gem.rubyforge_project  = 'datagraph'
 
-  gem.author             = 'Datagraph'
-  gem.email              = 'datagraph@googlegroups.com'
+  gem.authors            = ['Datagraph', 'Gregg Kellogg']
+  gem.email              = 'public-rdf-ruby@w3.org'
 
   gem.platform           = Gem::Platform::RUBY
   gem.files              = %w(AUTHORS CREDITS README UNLICENSE VERSION lib/linkeddata.rb)
