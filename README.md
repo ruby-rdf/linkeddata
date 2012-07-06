@@ -65,7 +65,7 @@ License
 This is free and unencumbered public domain software. For more information,
 see <http://unlicense.org/> or the accompanying {file:UNLICENSE} file.
 
-[RDF.rb]:         http://rdf.rubyforge.org/
+[RDF.rb]:         http://ruby-rdf.github.com/rdf
 [RDF::JSON]:      http://rdf.rubyforge.org/json/
 [RDF::Microdata]: http://rdoc.info/github/ruby-rdf/rdf-microdata/master/frames
 [RDF::N3]:        http://rdoc.info/github/ruby-rdf/rdf-n3/master/frames
