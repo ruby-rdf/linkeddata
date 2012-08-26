@@ -66,17 +66,17 @@ This is free and unencumbered public domain software. For more information,
 see <http://unlicense.org/> or the accompanying {file:UNLICENSE} file.
 
 [RDF.rb]:         http://ruby-rdf.github.com/rdf
-[RDF::JSON]:      http://rdf.rubyforge.org/json/
-[RDF::Microdata]: http://rdoc.info/github/ruby-rdf/rdf-microdata/master/frames
-[RDF::N3]:        http://rdoc.info/github/ruby-rdf/rdf-n3/master/frames
-[RDF::RDFa]:      http://rdoc.info/github/ruby-rdf/rdf-rdfa/master/frames
-[RDF::RDFXML]:    http://rdoc.info/github/ruby-rdf/rdf-rdfxml/master/frames
-[RDF::TriX]:      http://rdoc.info/github/ruby-rdf/rdf-trix/master/frames
-[RDF::Turtle]:    http://rdoc.info/github/ruby-rdf/rdf-turtle/master/frames
-[JSON::LD]:       http://rdoc.info/github/gkellogg/json-ld/master/frames
-[SPARQL gem]:     http://rdoc.info/github/ruby-rdf/sparql/master/frames
-[SPARQL::Client]: http://rdoc.info/github/ruby-rdf/sparql-client/master/frames
-[JSON-LD]:        http://json-ld.org/
+[RDF::JSON]:      http://ruby-rdf.github.com/rdf-json
+[RDF::Microdata]: http://ruby-rdf.github.com/rdf-microdata
+[RDF::N3]:        http://ruby-rdf.github.com/rdf-n3
+[RDF::RDFa]:      http://ruby-rdf.github.com/rdf-rdfa
+[RDF::RDFXML]:    http://ruby-rdf.github.com/rdf-rdfxml
+[RDF::TriX]:      http://ruby-rdf.github.com/rdf-trix
+[RDF::Turtle]:    http://ruby-rdf.github.com/rdf-turtle
+[RDF::Raptor]:    http://ruby-rdf.github.com/rdf-raptor
+[JSON::LD]:       http://gkellogg.github.com/json-ld
+[SPARQL gem]:     http://ruby-rdf.github.com/sparql
+[SPARQL::Client]: http://ruby-rdf.github.com/sparql-client
 [Linked Data]:    http://linkeddata.org/
 [Microdata]:      http://en.wikipedia.org/wiki/Microdata_(HTML)
 [N-Quads]:        http://sw.deri.org/2008/07/n-quads/
