@@ -37,19 +37,19 @@ Documentation
 Dependencies
 ------------
 
-* [RDF.rb](http://rubygems.org/gems/rdf) (>= 0.3.4)
-* [RDF::Isomorphic](http://rubygems.org/gems/rdf-isomorphic) (>= 0.3.4)
-* [RDF::JSON](http://rubygems.org/gems/rdf-json) (>= 0.3.0)
-* [RDF::Microdata](http://rubygems.org/gems/rdf-microdata) (>= 0.2.2)
-* [RDF::N3](http://rubygems.org/gems/rdf-n3) (>= 0.3.6)
-* [RDF::RDFa](http://rubygems.org/gems/rdf-rdfa) (>= 0.3.7)
-* [RDF::RDFXML](http://rubygems.org/gems/rdf-rdfxml) (>= 0.3.5)
-* [RDF::TriG](http://rubygems.org/gems/rdf-trig) (>= 0.1.1)
-* [RDF::TriX](http://rubygems.org/gems/rdf-trix) (>= 0.3.0)
-* [RDF::Turtle](http://rubygems.org/gems/rdf-turtle) (>= 0.1.0)
-* [JSON::LD](http://rubygems.org/gems/json-ld) (>= 0.1.1)
-* Soft dependency on [SPARQL](http://rubygems.org/gems/sparql)
-* Soft dependency on [SPARQL::Client](http://rubygems.org/gems/sparql-client)
+* [RDF.rb](http://ruby-rdf.github.com/rdf) (>= 0.3.4)
+* [RDF::Isomorphic](http://ruby-rdf.github.com/rdf-isomorphic) (>= 0.3.4)
+* [RDF::JSON](http://ruby-rdf.github.com/rdf-json) (>= 0.3.0)
+* [RDF::Microdata](http://ruby-rdf.github.com/rdf-microdata) (>= 0.2.2)
+* [RDF::N3](http://ruby-rdf.github.com/rdf-n3) (>= 0.3.6)
+* [RDF::RDFa](http://ruby-rdf.github.com/rdf-rdfa) (>= 0.3.7)
+* [RDF::RDFXML](http://ruby-rdf.github.com/rdf-rdfxml) (>= 0.3.5)
+* [RDF::TriG](http://ruby-rdf.github.com/rdf-trig) (>= 0.1.1)
+* [RDF::TriX](http://ruby-rdf.github.com/rdf-trix) (>= 0.3.0)
+* [RDF::Turtle](http://ruby-rdf.github.com/rdf-turtle) (>= 0.1.0)
+* [JSON::LD](http://gkellogg.github.com/json-ld) (>= 0.1.1)
+* Soft dependency on [SPARQL](http://ruby-rdf.github.com/sparql)
+* Soft dependency on [SPARQL::Client](http://ruby-rdf.github.com/sparql-client)
 
 Installation
 ------------
@@ -71,11 +71,11 @@ see <http://unlicense.org/> or the accompanying {file:UNLICENSE} file.
 [RDF::N3]:        http://rdoc.info/github/ruby-rdf/rdf-n3/master/frames
 [RDF::RDFa]:      http://rdoc.info/github/ruby-rdf/rdf-rdfa/master/frames
 [RDF::RDFXML]:    http://rdoc.info/github/ruby-rdf/rdf-rdfxml/master/frames
-[RDF::TriX]:      http://rdf.rubyforge.org/trix/
+[RDF::TriX]:      http://rdoc.info/github/ruby-rdf/rdf-trix/master/frames
 [RDF::Turtle]:    http://rdoc.info/github/ruby-rdf/rdf-turtle/master/frames
 [JSON::LD]:       http://rdoc.info/github/gkellogg/json-ld/master/frames
 [SPARQL gem]:     http://rdoc.info/github/ruby-rdf/sparql/master/frames
-[SPARQL::Client]: http://sparql.rubyforge.org/client/
+[SPARQL::Client]: http://rdoc.info/github/ruby-rdf/sparql-client/master/frames
 [JSON-LD]:        http://json-ld.org/
 [Linked Data]:    http://linkeddata.org/
 [Microdata]:      http://en.wikipedia.org/wiki/Microdata_(HTML)
@@ -87,5 +87,5 @@ see <http://unlicense.org/> or the accompanying {file:UNLICENSE} file.
 [RDFa]:           http://en.wikipedia.org/wiki/RDFa
 [SPARQL]:         http://en.wikipedia.org/wiki/Sparql
 [TriX]:           http://www.w3.org/2004/03/trix/
-[Turtle]:         http://en.wikipedia.org/wiki/Turtle_(syntax)
+[Turtle]:         http://www.w3.org/TR/turtle/
 [versioning]:     http://blog.zenspider.com/2008/10/rubygems-howto-preventing-cata.html
