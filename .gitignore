@@ -3,3 +3,6 @@
 .yardoc
 pkg
 tmp
+/doc/
+/*.gem
+Gemfile.lock
