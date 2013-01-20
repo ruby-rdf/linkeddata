@@ -37,17 +37,17 @@ Documentation
 Dependencies
 ------------
 
-* [RDF.rb](http://ruby-rdf.github.com/rdf) (>= 0.3.4)
-* [RDF::Isomorphic](http://ruby-rdf.github.com/rdf-isomorphic) (>= 0.3.4)
-* [RDF::JSON](http://ruby-rdf.github.com/rdf-json) (>= 0.3.0)
-* [RDF::Microdata](http://ruby-rdf.github.com/rdf-microdata) (>= 0.2.2)
-* [RDF::N3](http://ruby-rdf.github.com/rdf-n3) (>= 0.3.6)
-* [RDF::RDFa](http://ruby-rdf.github.com/rdf-rdfa) (>= 0.3.7)
-* [RDF::RDFXML](http://ruby-rdf.github.com/rdf-rdfxml) (>= 0.3.5)
-* [RDF::TriG](http://ruby-rdf.github.com/rdf-trig) (>= 0.1.1)
-* [RDF::TriX](http://ruby-rdf.github.com/rdf-trix) (>= 0.3.0)
-* [RDF::Turtle](http://ruby-rdf.github.com/rdf-turtle) (>= 0.1.0)
-* [JSON::LD](http://gkellogg.github.com/json-ld) (>= 0.1.1)
+* [RDF.rb](http://ruby-rdf.github.com/rdf) (>= 1.0)
+* [RDF::Isomorphic](http://ruby-rdf.github.com/rdf-isomorphic) (>= 1.0)
+* [RDF::JSON](http://ruby-rdf.github.com/rdf-json) (>= 1.0)
+* [RDF::Microdata](http://ruby-rdf.github.com/rdf-microdata) (>= 1.0)
+* [RDF::N3](http://ruby-rdf.github.com/rdf-n3) (>= 1.0)
+* [RDF::RDFa](http://ruby-rdf.github.com/rdf-rdfa) (>= 1.0)
+* [RDF::RDFXML](http://ruby-rdf.github.com/rdf-rdfxml) (>= 1.0)
+* [RDF::TriG](http://ruby-rdf.github.com/rdf-trig) (>= 1.0)
+* [RDF::TriX](http://ruby-rdf.github.com/rdf-trix) (>= 1.0)
+* [RDF::Turtle](http://ruby-rdf.github.com/rdf-turtle) (>= 1.0)
+* [JSON::LD](http://gkellogg.github.com/json-ld) (>= 0.9.0)
 * Soft dependency on [SPARQL](http://ruby-rdf.github.com/sparql)
 * Soft dependency on [SPARQL::Client](http://ruby-rdf.github.com/sparql-client)
 
