@@ -1,5 +1,4 @@
-Linked Data for Ruby
-====================
+# Linked Data for Ruby  [![Build Status](https://travis-ci.org/ruby-rdf/linkeddata.png?branch=master)](http://travis-ci.org/ruby-rdf/linkeddata)
 
 This is a metadistribution of [RDF.rb][] including all currently available
 and usable parsing/serialization plugins, intended to make producing and
@@ -7,8 +6,7 @@ consuming [Linked Data][] with Ruby as quick & easy as possible.
 
 * <http://github.com/datagraph/linkeddata>
 
-Features
---------
+## Features
 
 * Includes [N-Triples][] and [N-Quads][] support using [RDF.rb][].
 * Includes [RDF/XML][] support using the [RDF::RDFXML][] gem.
@@ -22,20 +20,17 @@ Features
 * Includes [SPARQL][] support using the [SPARQL][SPARQL gem] gem (soft dependency).
 * Maintains release parity with RDF.rb.
 
-Examples
---------
+## Examples
 
     require 'linkeddata'
 
-Documentation
--------------
+## Documentation
 
 * <http://rdf.rubyforge.org/>
 * <http://blog.datagraph.org/2010/03/rdf-for-ruby>
 * <http://blog.datagraph.org/2010/04/parsing-rdf-with-ruby>
 
-Dependencies
-------------
+## Dependencies
 
 * [RDF.rb](http://ruby-rdf.github.com/rdf) (>= 1.0)
 * [RDF::Isomorphic](http://ruby-rdf.github.com/rdf-isomorphic) (>= 1.0)
@@ -51,16 +46,14 @@ Dependencies
 * Soft dependency on [SPARQL](http://ruby-rdf.github.com/sparql)
 * Soft dependency on [SPARQL::Client](http://ruby-rdf.github.com/sparql-client)
 
-Installation
-------------
+## Installation
 
 The recommended installation method is via [RubyGems](http://rubygems.org/).
 To install the latest official release of the gem, do:
 
     % [sudo] gem install linkeddata
 
-License
--------
+##License
 
 This is free and unencumbered public domain software. For more information,
 see <http://unlicense.org/> or the accompanying {file:UNLICENSE} file.
