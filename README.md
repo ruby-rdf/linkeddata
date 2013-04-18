@@ -1,10 +1,13 @@
-# Linked Data for Ruby  [![Build Status](https://travis-ci.org/ruby-rdf/linkeddata.png?branch=master)](http://travis-ci.org/ruby-rdf/linkeddata)
+# Linked Data for Ruby
 
 This is a metadistribution of [RDF.rb][] including all currently available
 and usable parsing/serialization plugins, intended to make producing and
 consuming [Linked Data][] with Ruby as quick & easy as possible.
 
 * <http://github.com/datagraph/linkeddata>
+
+[![Gem Version](https://badge.fury.io/rb/linkeddata.png)][gem]
+[![Build Status](https://travis-ci.org/ruby-rdf/linkeddata.png?branch=master)](http://travis-ci.org/ruby-rdf/linkeddata)
 
 ## Features
 
