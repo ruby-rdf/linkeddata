@@ -6,7 +6,7 @@ consuming [Linked Data][] with Ruby as quick & easy as possible.
 
 * <http://github.com/datagraph/linkeddata>
 
-[![Gem Version](https://badge.fury.io/rb/linkeddata.png)][gem]
+[![Gem Version](https://badge.fury.io/rb/linkeddata.png)](http://badge.fury.io/rb/linkeddata)
 [![Build Status](https://travis-ci.org/ruby-rdf/linkeddata.png?branch=master)](http://travis-ci.org/ruby-rdf/linkeddata)
 
 ## Features
