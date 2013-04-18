@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.date               = File.mtime('VERSION').strftime('%Y-%m-%d')
 
   gem.name               = 'linkeddata'
-  gem.homepage           = 'http://github.com/ruby-rdf/linkeddata'
+  gem.homepage           = 'http://ruby-rdf.github.com/'
   gem.license            = 'Public Domain' if gem.respond_to?(:license=)
   gem.summary            = 'Linked Data for Ruby.'
   gem.description        = 'A metadistribution of RDF.rb including a full set of parsing/serialization plugins.'
@@ -27,19 +27,19 @@ Gem::Specification.new do |gem|
 
   gem.required_ruby_version      = '>= 1.8.1'
   gem.requirements               = []
-  gem.add_runtime_dependency     'rdf',            '>= 1.0'
-  gem.add_runtime_dependency     'rdf-isomorphic', '>= 1.0'
+  gem.add_runtime_dependency     'rdf',            '>= 1.0.5'
+  gem.add_runtime_dependency     'rdf-isomorphic', '>= 1.0.1'
   gem.add_runtime_dependency     'rdf-json',       '>= 1.0'
   gem.add_runtime_dependency     'rdf-microdata',  '>= 1.0'
   gem.add_runtime_dependency     'rdf-n3',         '>= 1.0'
   gem.add_runtime_dependency     'rdf-rdfa',       '>= 1.0'
-  gem.add_runtime_dependency     'rdf-rdfxml',     '>= 1.0'
-  gem.add_runtime_dependency     'rdf-trig',       '>= 1.0.0.beta1'
+  gem.add_runtime_dependency     'rdf-rdfxml',     '>= 1.0.1'
+  gem.add_runtime_dependency     'rdf-trig',       '>= 1.0.0.beta3'
   gem.add_runtime_dependency     'rdf-trix',       '>= 1.0'
-  gem.add_runtime_dependency     'rdf-turtle',     '>= 1.0'
-  gem.add_runtime_dependency     'json-ld',        '>= 0.9.0'
-  gem.add_development_dependency 'yard',           '>= 0.8.3'
-  gem.add_development_dependency 'rspec',          '>= 2.12.0'
-  gem.add_development_dependency 'rdf-spec',       '>= 1.0'
+  gem.add_runtime_dependency     'rdf-turtle',     '>= 1.0.4'
+  gem.add_runtime_dependency     'json-ld',        '>= 0.9.1'
+  gem.add_development_dependency 'yard',           '>= 0.8.5'
+  gem.add_development_dependency 'rspec',          '>= 2.13.0'
+  gem.add_development_dependency 'rdf-spec',       '>= 1.0.5'
   gem.post_install_message       = nil
 end
