@@ -25,21 +25,21 @@ Gem::Specification.new do |gem|
   gem.test_files         = %w()
   gem.has_rdoc           = false
 
-  gem.required_ruby_version      = '>= 1.8.1'
+  gem.required_ruby_version      = '>= 1.8.7'
   gem.requirements               = []
-  gem.add_runtime_dependency     'rdf',            '>= 1.0.5'
-  gem.add_runtime_dependency     'rdf-isomorphic', '>= 1.0.1'
+  gem.add_runtime_dependency     'rdf',            '>= 1.0.9'
+  gem.add_runtime_dependency     'rdf-isomorphic', '>= 1.0.2'
   gem.add_runtime_dependency     'rdf-json',       '>= 1.0'
-  gem.add_runtime_dependency     'rdf-microdata',  '>= 1.0'
-  gem.add_runtime_dependency     'rdf-n3',         '>= 1.0'
-  gem.add_runtime_dependency     'rdf-rdfa',       '>= 1.0'
-  gem.add_runtime_dependency     'rdf-rdfxml',     '>= 1.0.1'
-  gem.add_runtime_dependency     'rdf-trig',       '>= 1.0.0.beta3'
+  gem.add_runtime_dependency     'rdf-microdata',  '>= 1.0.2'
+  gem.add_runtime_dependency     'rdf-n3',         '>= 1.0.1'
+  gem.add_runtime_dependency     'rdf-rdfa',       '>= 1.0.2'
+  gem.add_runtime_dependency     'rdf-rdfxml',     '>= 1.0.2'
+  gem.add_runtime_dependency     'rdf-trig',       '>= 1.0.3'
   gem.add_runtime_dependency     'rdf-trix',       '>= 1.0'
-  gem.add_runtime_dependency     'rdf-turtle',     '>= 1.0.4'
-  gem.add_runtime_dependency     'json-ld',        '>= 0.9.1'
-  gem.add_development_dependency 'yard',           '>= 0.8.5'
-  gem.add_development_dependency 'rspec',          '>= 2.13.0'
-  gem.add_development_dependency 'rdf-spec',       '>= 1.0.5'
+  gem.add_runtime_dependency     'rdf-turtle',     '>= 1.0.9'
+  gem.add_runtime_dependency     'json-ld',        '>= 1.0.7'
+  gem.add_development_dependency 'yard',           '>= 0.8.7'
+  gem.add_development_dependency 'rspec',          '>= 2.14'
+  gem.add_development_dependency 'rdf-spec',       '>= 1.0.9'
   gem.post_install_message       = nil
 end

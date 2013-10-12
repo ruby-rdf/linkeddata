@@ -15,7 +15,7 @@ gem 'rdf-trig',       :git => "git://github.com/ruby-rdf/rdf-trig.git"
 gem 'rdf-trix',       :git => "git://github.com/ruby-rdf/rdf-trix.git"
 gem 'rdf-turtle',     :git => "git://github.com/ruby-rdf/rdf-turtle.git"
 gem 'rdf-xsd',        :git => "git://github.com/ruby-rdf/rdf-xsd.git"
-gem 'json-ld',        :git => "git://github.com/gkellogg/json-ld.git"
+gem 'json-ld',        :git => "git://github.com/ruby-rdf/json-ld.git"
 
 group :development do
   gem "wirble"
