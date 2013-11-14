@@ -1,6 +1,6 @@
 # Linked Data for Ruby
 
-This is a metadistribution of [RDF.rb][] including all currently available
+This is a meta-distribution of [RDF.rb][] including all currently available
 and usable parsing/serialization plugins, intended to make producing and
 consuming [Linked Data][] with Ruby as quick & easy as possible.
 
@@ -20,6 +20,7 @@ consuming [Linked Data][] with Ruby as quick & easy as possible.
 * Includes [TriX][] support using the [RDF::TriX][] gem.
 * Includes [Turtle][] support using the [RDF::Turtle][] gem.
 * Includes [JSON-LD][] support using the [JSON::LD][] gem.
+* Includes Aggregate Repository support using the [Aggregate Repo][], which allows graphs and repositories to be aggregated from multiple sources.
 * Includes [SPARQL][] support using the [SPARQL][SPARQL gem] and [SPARQL::Client][] gems
 * Maintains release parity with RDF.rb.
 
@@ -35,19 +36,20 @@ consuming [Linked Data][] with Ruby as quick & easy as possible.
 
 ## Dependencies
 
-* [RDF.rb](http://ruby-rdf.github.com/rdf) (>= 1.1)
-* [RDF::Isomorphic](http://ruby-rdf.github.com/rdf-isomorphic) (>= 1.1)
-* [RDF::JSON](http://ruby-rdf.github.com/rdf-json) (>= 1.1)
-* [RDF::Microdata](http://ruby-rdf.github.com/rdf-microdata) (>= 1.1)
-* [RDF::N3](http://ruby-rdf.github.com/rdf-n3) (>= 1.1)
-* [RDF::RDFa](http://ruby-rdf.github.com/rdf-rdfa) (>= 1.1)
-* [RDF::RDFXML](http://ruby-rdf.github.com/rdf-rdfxml) (>= 1.1)
-* [RDF::TriG](http://ruby-rdf.github.com/rdf-trig) (>= 1.1)
-* [RDF::TriX](http://ruby-rdf.github.com/rdf-trix) (>= 1.1)
-* [RDF::Turtle](http://ruby-rdf.github.com/rdf-turtle) (>= 1.1)
-* [JSON::LD](http://gkellogg.github.com/json-ld) (>= 1.1)
-* [SPARQL](http://ruby-rdf.github.com/sparql) (>= 1.1)
-* [SPARQL::Client](http://ruby-rdf.github.com/sparql-client) (>= 1.1)
+* [RDF.rb][] (>= 1.1.0)
+* [RDF::AggregateRepo][] (>= 1.1.0)
+* [RDF::Isomorphic][] (>= 1.1.0)
+* [RDF::JSON][] (>= 1.1.0)
+* [RDF::Microdata][] (>= 1.1.0)
+* [RDF::N3][] (>= 1.1.0)
+* [RDF::RDFa][] (>= 1.1.0)
+* [RDF::RDFXML][] (>= 1.1.0)
+* [RDF::TriG][] (>= 1.1.0)
+* [RDF::TriX][] (>= 1.1.0)
+* [RDF::Turtle][] (>= 1.1.0)
+* [JSON::LD][] (>= 1.1.0)
+* [SPARQL][SPARQL gem] (>= 1.1.2)
+* [SPARQL::Client][] (>= 1.1.0)
 
 ## Installation
 
@@ -61,27 +63,27 @@ To install the latest official release of the gem, do:
 This is free and unencumbered public domain software. For more information,
 see <http://unlicense.org/> or the accompanying {file:UNLICENSE} file.
 
-[RDF.rb]:         http://ruby-rdf.github.com/rdf
-[RDF::JSON]:      http://ruby-rdf.github.com/rdf-json
-[RDF::Microdata]: http://ruby-rdf.github.com/rdf-microdata
-[RDF::N3]:        http://ruby-rdf.github.com/rdf-n3
-[RDF::RDFa]:      http://ruby-rdf.github.com/rdf-rdfa
-[RDF::RDFXML]:    http://ruby-rdf.github.com/rdf-rdfxml
-[RDF::TriX]:      http://ruby-rdf.github.com/rdf-trix
-[RDF::Turtle]:    http://ruby-rdf.github.com/rdf-turtle
-[RDF::Raptor]:    http://ruby-rdf.github.com/rdf-raptor
-[JSON::LD]:       http://gkellogg.github.com/json-ld
-[SPARQL gem]:     http://ruby-rdf.github.com/sparql
-[SPARQL::Client]: http://ruby-rdf.github.com/sparql-client
-[Linked Data]:    http://linkeddata.org/
-[Microdata]:      http://en.wikipedia.org/wiki/Microdata_(HTML)
-[N-Quads]:        http://sw.deri.org/2008/07/n-quads/
-[N-Triples]:      http://en.wikipedia.org/wiki/N-Triples
-[Notation3]:      http://en.wikipedia.org/wiki/Notation3
-[RDF/JSON]:       http://n2.talis.com/wiki/RDF_JSON_Specification
-[RDF/XML]:        http://en.wikipedia.org/wiki/RDF/XML
-[RDFa]:           http://en.wikipedia.org/wiki/RDFa
-[SPARQL]:         http://en.wikipedia.org/wiki/Sparql
-[TriX]:           http://www.w3.org/2004/03/trix/
-[Turtle]:         http://www.w3.org/TR/turtle/
-[versioning]:     http://blog.zenspider.com/2008/10/rubygems-howto-preventing-cata.html
+[RDF.rb]:             http://ruby-rdf.github.com/rdf
+[RDF::AggregateRepo]: http://ruby-rdf.github.com/rdf
+[RDF::JSON]:          http://ruby-rdf.github.com/rdf-json
+[RDF::Microdata]:     http://ruby-rdf.github.com/rdf-microdata
+[RDF::N3]:            http://ruby-rdf.github.com/rdf-n3
+[RDF::RDFa]:          http://ruby-rdf.github.com/rdf-rdfa
+[RDF::RDFXML]:        http://ruby-rdf.github.com/rdf-rdfxml
+[RDF::TriX]:          http://ruby-rdf.github.com/rdf-trix
+[RDF::Turtle]:        http://ruby-rdf.github.com/rdf-turtle
+[RDF::Raptor]:        http://ruby-rdf.github.com/rdf-raptor
+[JSON::LD]:           http://gkellogg.github.com/json-ld
+[SPARQL gem]:         http://ruby-rdf.github.com/sparql
+[SPARQL::Client]:     http://ruby-rdf.github.com/sparql-client
+[Linked Data]:        http://linkeddata.org/
+[Microdata]:          http://en.wikipedia.org/wiki/Microdata_(HTML)
+[N-Quads]:            http://sw.deri.org/2008/07/n-quads/
+[N-Triples]:          http://en.wikipedia.org/wiki/N-Triples
+[Notation3]:          http://en.wikipedia.org/wiki/Notation3
+[RDF/JSON]:           http://n2.talis.com/wiki/RDF_JSON_Specification
+[RDF/XML]:            http://en.wikipedia.org/wiki/RDF/XML
+[RDFa]:               http://en.wikipedia.org/wiki/RDFa
+[SPARQL]:             http://en.wikipedia.org/wiki/Sparql
+[TriX]:               http://www.w3.org/2004/03/trix/
+[Turtle]:             http://www.w3.org/TR/turtle/
