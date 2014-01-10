@@ -23,3 +23,8 @@ gem 'sparql-client',  :git => "git://github.com/ruby-rdf/sparql-client.git", :br
 group :development do
   gem "wirble"
 end
+
+platforms :rbx do
+  gem 'rubysl', '~> 2.0'
+  gem 'rubinius', '~> 2.0'
+end
