@@ -1,7 +1,7 @@
 # Linked Data for Ruby
 
 This is a meta-distribution of [RDF.rb][] including all currently available
-and usable parsing/serialization plugins, intended to make producing and
+and usable parsing/serialization extensions, intended to make producing and
 consuming [Linked Data][] with Ruby as quick & easy as possible.
 
 * <http://github.com/datagraph/linkeddata>
