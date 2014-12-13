@@ -35,6 +35,7 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency     'rdf-n3',         '~> 1.1'
   gem.add_runtime_dependency     'rdf-rdfa',       '~> 1.1', '>= 1.1.5'
   gem.add_runtime_dependency     'rdf-rdfxml',     '~> 1.1', '>= 1.1.3'
+  gem.add_runtime_dependency     'rdf-reasoner',   '~> 0.2', '>= 0.2.1'
   gem.add_runtime_dependency     'rdf-trig',       '~> 1.1', '>= 1.1.3'
   gem.add_runtime_dependency     'rdf-trix',       '~> 1.1'
   gem.add_runtime_dependency     'rdf-turtle',     '~> 1.1', '>= 1.1.4'
