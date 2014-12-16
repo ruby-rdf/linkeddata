@@ -37,8 +37,8 @@ module LinkedData
   # @see http://rubygems.org/gems/rdf-turtle
   require 'rdf/turtle'
 
-  # @see http://rubygems.org/gems/rdf-vocab
-  require 'rdf/vocab'
+  # @see http://rubygems.org/gems/rdf-xsd
+  require 'rdf/xsd'
 
   # @see http://rubygems.org/gems/sparql-client
   require 'sparql'
