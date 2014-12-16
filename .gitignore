@@ -4,5 +4,6 @@
 pkg
 tmp
 /doc/
+/pkg/
 /*.gem
 Gemfile.lock
