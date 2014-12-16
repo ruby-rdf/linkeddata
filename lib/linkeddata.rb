@@ -22,6 +22,9 @@ module LinkedData
   # @see http://rubygems.org/gems/rdf-rdfa
   require 'rdf/rdfa'
 
+  # @see http://rubygems.org/gems/rdf-reasoner
+  require 'rdf/reasoner'
+
   # @see http://rubygems.org/gems/rdf-rdfxml
   require 'rdf/rdfxml'
 
@@ -34,19 +37,14 @@ module LinkedData
   # @see http://rubygems.org/gems/rdf-turtle
   require 'rdf/turtle'
 
-  # @see http://rubygems.org/gems/sparql-client
-  begin
-    require 'sparql'
-  rescue LoadError
-    # SPARQL is merely a "soft" convenience dependency.
-  end
+  # @see http://rubygems.org/gems/rdf-vocab
+  require 'rdf/vocab'
 
   # @see http://rubygems.org/gems/sparql-client
-  begin
-    require 'sparql/client'
-  rescue LoadError
-    # SPARQL::Client is merely a "soft" convenience dependency.
-  end
+  require 'sparql'
+
+  # @see http://rubygems.org/gems/sparql-client
+  require 'sparql/client'
 
   include RDF
 end
