@@ -7,6 +7,9 @@ module LinkedData
   # @see http://rubygems.org/gems/json/ld
   require 'json/ld'
 
+  # @see http://rubygems.org/gems/rdf-aggregate-repo
+  require 'rdf/aggregate_repo'
+
   # @see http://rubygems.org/gems/rdf-isomorphic
   require 'rdf/isomorphic'
 
@@ -28,6 +31,9 @@ module LinkedData
   # @see http://rubygems.org/gems/rdf-rdfxml
   require 'rdf/rdfxml'
 
+  # @see http://rubygems.org/gems/rdf-tabular
+  require 'rdf/tabular'
+
   # @see http://rubygems.org/gems/rdf-trig
   require 'rdf/trig'
 
@@ -36,6 +42,9 @@ module LinkedData
 
   # @see http://rubygems.org/gems/rdf-turtle
   require 'rdf/turtle'
+
+  # @see http://rubygems.org/gems/rdf-vocab
+  require 'rdf/vocab'
 
   # @see http://rubygems.org/gems/rdf-xsd
   require 'rdf/xsd'
