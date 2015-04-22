@@ -22,7 +22,7 @@ consuming [Linked Data][] with Ruby as quick & easy as possible.
 * Includes [TriX][] support using the [RDF::TriX][] gem.
 * Includes [Turtle][] support using the [RDF::Turtle][] gem.
 * Includes [JSON-LD][] support using the [JSON::LD][] gem.
-* Includes Aggregate Repository support using the [Aggregate Repo][], which allows graphs and repositories to be aggregated from multiple sources.
+* Includes Aggregate Repository support using [RDF::AggregateRepo][], which allows graphs and repositories to be aggregated from multiple sources.
 * Includes [SPARQL][] support using the [SPARQL][SPARQL gem] and [SPARQL::Client][] gems
 * Maintains release parity with RDF.rb.
 
@@ -75,21 +75,25 @@ see <http://unlicense.org/> or the accompanying {file:UNLICENSE} file.
 
 [RDF.rb]:             http://ruby-rdf.github.com/rdf
 [RDF::AggregateRepo]: http://ruby-rdf.github.com/rdf
+[RDF::Isomorphic]:    http://ruby-rdf.github.com/rdf-isomorphic
 [RDF::JSON]:          http://ruby-rdf.github.com/rdf-json
 [RDF::Microdata]:     http://ruby-rdf.github.com/rdf-microdata
 [RDF::N3]:            http://ruby-rdf.github.com/rdf-n3
+[RDF::Raptor]:        http://ruby-rdf.github.com/rdf-raptor
 [RDF::RDFa]:          http://ruby-rdf.github.com/rdf-rdfa
 [RDF::RDFXML]:        http://ruby-rdf.github.com/rdf-rdfxml
 [RDF::Reasoner]:      http://ruby-rdf.github.com/rdf-reasoner
+[RDF::TriG]:          http://ruby-rdf.github.com/rdf-trig
 [RDF::TriX]:          http://ruby-rdf.github.com/rdf-trix
 [RDF::Turtle]:        http://ruby-rdf.github.com/rdf-turtle
-[RDF::Raptor]:        http://ruby-rdf.github.com/rdf-raptor
+[RDF::Vocab]:         http://ruby-rdf.github.com/rdf-vocab
 [Linked Data]:        http://linkeddata.org/
 [Microdata]:          http://www.w3.org/TR/microdata-rdf/
 [N-Quads]:            http://www.w3.org/TR/n-quads/
 [N-Triples]:          http://www.w3.org/TR/n-triples/
 [Notation3]:          http://en.wikipedia.org/wiki/Notation3
 [Nokogiri]:           http://rubygems.org/gems/nokogiri
+[JSON-LD]:            http://www.w3.org/TR/json-ld/ "JSON-LD 1.0"
 [JSON::LD]:           http://gkellogg.github.com/json-ld
 [SPARQL gem]:         http://ruby-rdf.github.com/sparql
 [SPARQL::Client]:     http://ruby-rdf.github.com/sparql-client
