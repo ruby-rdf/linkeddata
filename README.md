@@ -41,7 +41,7 @@ Note, this distribution requires [Nokogiri][], which makes it not pure-ruby. Oth
 Nokogiri is only a soft dependency, so environments where using native gems is not feasible should
 include only the gems upon which they directly depend.
 
-* Ruby (>= 2.0)
+* Ruby (>= 1.9.3)
 * [RDF.rb][] ('~> 1.1', '>= 1.1.11')
 * [RDF::AggregateRepo][] ('~> 1.1')
 * [RDF::Isomorphic][] ('~> 1.1')
