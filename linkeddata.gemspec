@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.description        = 'A metadistribution of RDF.rb including a full set of parsing/serialization plugins.'
   gem.rubyforge_project  = 'datagraph'
 
-  gem.authors            = ['Arto Bendiken', 'Ben Lavender', 'Gregg Kellogg']
+  gem.authors            = ['Arto Bendiken', 'Ben Lavender', 'Gregg Kellogg', 'Tom Johnson']
   gem.email              = 'public-rdf-ruby@w3.org'
 
   gem.platform           = Gem::Platform::RUBY
@@ -25,31 +25,31 @@ Gem::Specification.new do |gem|
   gem.test_files         = %w()
   gem.has_rdoc           = false
 
-  gem.required_ruby_version      = '>= 2.0'
+  gem.required_ruby_version      = '>= 1.9.3'
   gem.requirements               = []
-  gem.add_runtime_dependency     'rdf',            '~> 1.1', '>= 1.1.11'
-  gem.add_runtime_dependency     'rdf-aggregate-repo', '~> 1.1'
-  gem.add_runtime_dependency     'rdf-isomorphic', '~> 1.1'
+  gem.add_runtime_dependency     'rdf',            '~> 1.99'
+  gem.add_runtime_dependency     'rdf-aggregate-repo', '~> 1.99'
+  gem.add_runtime_dependency     'rdf-isomorphic', '~> 1.99'
   gem.add_runtime_dependency     'rdf-json',       '~> 1.1', '>= 1.1.2'
-  gem.add_runtime_dependency     'rdf-microdata',  '~> 2.0', '>= 2.0.1'
-  gem.add_runtime_dependency     'rdf-n3',         '~> 1.1', '>= 1.1.3'
-  gem.add_runtime_dependency     'rdf-rdfa',       '~> 1.1', '>= 1.1.6'
-  gem.add_runtime_dependency     'rdf-rdfxml',     '~> 1.1', '>= 1.1.4'
-  gem.add_runtime_dependency     'rdf-reasoner',   '~> 0.2', '>= 0.2.1'
-  gem.add_runtime_dependency     'rdf-tabular',    '~> 0.1', '>= 0.1.2'
-  gem.add_runtime_dependency     'rdf-trig',       '~> 1.1', '>= 1.1.4'
-  gem.add_runtime_dependency     'rdf-trix',       '~> 1.1'
-  gem.add_runtime_dependency     'rdf-turtle',     '~> 1.1', '>= 1.1.6'
-  gem.add_runtime_dependency     'rdf-vocab',      '~> 0.8'
-  gem.add_runtime_dependency     'rdf-xsd',        '~> 1.1', '>= 1.1.3'
-  gem.add_runtime_dependency     'json-ld',        '~> 1.1', '>= 1.1.8'
-  gem.add_runtime_dependency     'sparql',         '~> 1.1', '>= 1.1.5'
-  gem.add_runtime_dependency     'sparql-client',  '~> 1.1', '>= 1.1.3'
+  gem.add_runtime_dependency     'rdf-microdata',  '~> 2.0', '>= 2.0.2'
+  gem.add_runtime_dependency     'rdf-n3',         '~> 1.99'
+  gem.add_runtime_dependency     'rdf-rdfa',       '~> 1.99'
+  gem.add_runtime_dependency     'rdf-rdfxml',     '~> 1.1', '>= 1.1.5'
+  gem.add_runtime_dependency     'rdf-reasoner',   '~> 0.3'
+  gem.add_runtime_dependency     'rdf-tabular',    '~> 0.3'
+  gem.add_runtime_dependency     'rdf-trig',       '~> 1.99', '>= 1.99.0.1'
+  gem.add_runtime_dependency     'rdf-trix',       '~> 1.99'
+  gem.add_runtime_dependency     'rdf-turtle',     '~> 1.99'
+  gem.add_runtime_dependency     'rdf-vocab',      '~> 0.8', '>= 0.8.6'
+  gem.add_runtime_dependency     'rdf-xsd',        '~> 1.1', '>= 1.1.5'
+  gem.add_runtime_dependency     'json-ld',        '~> 1.99'
+  gem.add_runtime_dependency     'sparql',         '~> 1.99'
+  gem.add_runtime_dependency     'sparql-client',  '~> 1.99'
   gem.add_runtime_dependency     'nokogiri',       '~> 1.6'
-  gem.add_runtime_dependency     'equivalent-xml', '~> 0.5'
+  gem.add_runtime_dependency     'equivalent-xml', '~> 0.6'
   gem.add_development_dependency 'yard',           '~> 0.8'
   gem.add_development_dependency 'rspec',          '~> 3.2'
   gem.add_development_dependency 'rspec-its',      '~> 1.2'
-  gem.add_development_dependency 'rdf-spec',       '~> 1.1'
+  gem.add_development_dependency 'rdf-spec',       '~> 1.99'
   gem.post_install_message       = nil
 end

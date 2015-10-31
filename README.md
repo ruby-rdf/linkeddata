@@ -22,7 +22,7 @@ consuming [Linked Data][] with Ruby as quick & easy as possible.
 * Includes [TriX][] support using the [RDF::TriX][] gem.
 * Includes [Turtle][] support using the [RDF::Turtle][] gem.
 * Includes [JSON-LD][] support using the [JSON::LD][] gem.
-* Includes Aggregate Repository support using the [Aggregate Repo][], which allows graphs and repositories to be aggregated from multiple sources.
+* Includes Aggregate Repository support using [RDF::AggregateRepo][], which allows graphs and repositories to be aggregated from multiple sources.
 * Includes [SPARQL][] support using the [SPARQL][SPARQL gem] and [SPARQL::Client][] gems
 * Maintains release parity with RDF.rb.
 
@@ -41,24 +41,25 @@ Note, this distribution requires [Nokogiri][], which makes it not pure-ruby. Oth
 Nokogiri is only a soft dependency, so environments where using native gems is not feasible should
 include only the gems upon which they directly depend.
 
-* Ruby (>= 2.0)
-* [RDF.rb][] ('~> 1.1', '>= 1.1.7')
-* [RDF::AggregateRepo][] ('~> 1.1')
-* [RDF::Isomorphic][] ('~> 1.1')
-* [RDF::JSON][] ('~> 1.1')
-* [RDF::Microdata][] ('~> 2.0')
-* [RDF::N3][] ('~> 1.1')
-* [RDF::RDFa][] ('~> 1.1', '>= 1.1.5')
-* [RDF::RDFXML][] ('~> 1.1', '>= 1.1.3')
-* [RDF::Reasoner][] ('~> 0.2', '>= 0.2.1')
-* [RDF::TriG][] ('~> 1.1', '>= 1.1.3')
-* [RDF::TriX][] ('~> 1.1')
-* [RDF::Turtle][] ('~> 1.1', '>= 1.1.5')
-* [JSON::LD][] ('~> 1.1', '>= 1.1.7')
-* [SPARQL][SPARQL gem] ('~> 1.1', '>= 1.1.4')
-* [SPARQL::Client][] ('~> 1.1', '>= 1.1.3')
+* Ruby (>= 1.9.3)
+* [RDF.rb][] ('~> 1.99')
+* [RDF::AggregateRepo][] ('~> 1.99')
+* [RDF::Isomorphic][] ('~> 1.99')
+* [RDF::JSON][] ('~> 1.1', '>= 1.1.2')
+* [RDF::Microdata][] ('~> 2.0', '>= 2.0.2')
+* [RDF::N3][] ('~> 1.99')
+* [RDF::RDFa][] ('~> 1.99')
+* [RDF::RDFXML][] ('~> 1.1', '>= 1.1.5')
+* [RDF::Reasoner][] ('~> 0.3')
+* [RDF::TriG][] ('~> 1.99')
+* [RDF::TriX][] ('~> 1.99')
+* [RDF::Turtle][] ('~> 1.99')
+* [RDF::Vocab][] ('~> 0.8')
+* [JSON::LD][] (''~> 1.99')
+* [SPARQL][SPARQL gem] ('~> 1.99')
+* [SPARQL::Client][] ('~> 1.99')
 * [Nokogiri][] ('~> 1.6')
-* [Equivalent-XML](http://rubygems.org/gems/equivalent-xml) ('~> 0.4')
+* [Equivalent-XML](http://rubygems.org/gems/equivalent-xml) ('~> 0.6')
 
 ## Installation
 
@@ -74,21 +75,25 @@ see <http://unlicense.org/> or the accompanying {file:UNLICENSE} file.
 
 [RDF.rb]:             http://ruby-rdf.github.com/rdf
 [RDF::AggregateRepo]: http://ruby-rdf.github.com/rdf
+[RDF::Isomorphic]:    http://ruby-rdf.github.com/rdf-isomorphic
 [RDF::JSON]:          http://ruby-rdf.github.com/rdf-json
 [RDF::Microdata]:     http://ruby-rdf.github.com/rdf-microdata
 [RDF::N3]:            http://ruby-rdf.github.com/rdf-n3
+[RDF::Raptor]:        http://ruby-rdf.github.com/rdf-raptor
 [RDF::RDFa]:          http://ruby-rdf.github.com/rdf-rdfa
 [RDF::RDFXML]:        http://ruby-rdf.github.com/rdf-rdfxml
 [RDF::Reasoner]:      http://ruby-rdf.github.com/rdf-reasoner
+[RDF::TriG]:          http://ruby-rdf.github.com/rdf-trig
 [RDF::TriX]:          http://ruby-rdf.github.com/rdf-trix
 [RDF::Turtle]:        http://ruby-rdf.github.com/rdf-turtle
-[RDF::Raptor]:        http://ruby-rdf.github.com/rdf-raptor
+[RDF::Vocab]:         http://ruby-rdf.github.com/rdf-vocab
 [Linked Data]:        http://linkeddata.org/
 [Microdata]:          http://www.w3.org/TR/microdata-rdf/
 [N-Quads]:            http://www.w3.org/TR/n-quads/
 [N-Triples]:          http://www.w3.org/TR/n-triples/
 [Notation3]:          http://en.wikipedia.org/wiki/Notation3
 [Nokogiri]:           http://rubygems.org/gems/nokogiri
+[JSON-LD]:            http://www.w3.org/TR/json-ld/ "JSON-LD 1.0"
 [JSON::LD]:           http://gkellogg.github.com/json-ld
 [SPARQL gem]:         http://ruby-rdf.github.com/sparql
 [SPARQL::Client]:     http://ruby-rdf.github.com/sparql-client
