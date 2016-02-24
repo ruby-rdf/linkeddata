@@ -7,7 +7,7 @@ Gem::Specification.new do |gem|
 
   gem.name               = 'linkeddata'
   gem.homepage           = 'http://ruby-rdf.github.com/'
-  gem.license            = 'Public Domain' if gem.respond_to?(:license=)
+  gem.license            = 'Unlicense'
   gem.summary            = 'Linked Data for Ruby.'
   gem.description        = 'A metadistribution of RDF.rb including a full set of parsing/serialization plugins.'
   gem.rubyforge_project  = 'datagraph'
@@ -16,7 +16,7 @@ Gem::Specification.new do |gem|
   gem.email              = 'public-rdf-ruby@w3.org'
 
   gem.platform           = Gem::Platform::RUBY
-  gem.files              = %w(AUTHORS CREDITS README UNLICENSE VERSION lib/linkeddata.rb)
+  gem.files              = %w(AUTHORS CREDITS README.md UNLICENSE VERSION lib/linkeddata.rb)
   gem.bindir             = %q(bin)
   gem.executables        = %w()
   gem.default_executable = gem.executables.first
@@ -43,12 +43,12 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency     'rdf-vocab',           '>= 2.0.0.beta', '< 3'
   gem.add_runtime_dependency     'rdf-xsd',             '>= 2.0.0.beta', '< 3'
   gem.add_runtime_dependency     'json-ld',             '>= 2.0.0.beta', '< 3'
-  gem.add_runtime_dependency     'sparql',              '>= 1.99', '< 3'
+  gem.add_runtime_dependency     'sparql',              '>= 2.0.0.beta', '< 3'
   gem.add_runtime_dependency     'sparql-client',       '>= 2.0.0.beta', '< 3'
   gem.add_runtime_dependency     'nokogiri',            '~> 1.6'
   gem.add_runtime_dependency     'equivalent-xml',      '~> 0.6'
   gem.add_development_dependency 'yard',                '~> 0.8'
-  gem.add_development_dependency 'rspec',               '~> 3.2'
+  gem.add_development_dependency 'rspec',               '~> 3.4'
   gem.add_development_dependency 'rspec-its',           '~> 1.2'
   gem.add_development_dependency 'rdf-spec',            '>= 2.0.0.beta', '< 3'
   gem.post_install_message       = nil
