@@ -43,6 +43,7 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency     'rdf-vocab',           '>= 2.0.0.beta', '< 3'
   gem.add_runtime_dependency     'rdf-xsd',             '>= 2.0.0.beta', '< 3'
   gem.add_runtime_dependency     'json-ld',             '>= 2.0.0.beta', '< 3'
+  gem.add_runtime_dependency     'ld-patch',            '>= 0.3.0.beta', '< 1'
   gem.add_runtime_dependency     'sparql',              '>= 2.0.0.beta', '< 3'
   gem.add_runtime_dependency     'sparql-client',       '>= 2.0.0.beta', '< 3'
   gem.add_runtime_dependency     'nokogiri',            '~> 1.6'
