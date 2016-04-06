@@ -22,6 +22,7 @@ consuming [Linked Data][] with Ruby as quick & easy as possible.
 * Includes [TriX][] support using the [RDF::TriX][] gem.
 * Includes [Turtle][] support using the [RDF::Turtle][] gem.
 * Includes [JSON-LD][] support using the [JSON::LD][] gem.
+* Includes [LD Patch][] support using the [LD::Patch][] gem.
 * Includes Aggregate Repository support using [RDF::AggregateRepo][], which allows graphs and repositories to be aggregated from multiple sources.
 * Includes [SPARQL][] support using the [SPARQL][SPARQL gem] and [SPARQL::Client][] gems
 * Maintains release parity with RDF.rb.
@@ -42,22 +43,23 @@ Nokogiri is only a soft dependency, so environments where using native gems is n
 include only the gems upon which they directly depend.
 
 * Ruby (>= 2.0)
-* [RDF.rb][] ('~> 1.99')
-* [RDF::AggregateRepo][] ('~> 1.99')
-* [RDF::Isomorphic][] ('~> 1.99')
-* [RDF::JSON][] ('~> 1.1', '>= 1.1.2')
+* [RDF.rb][] ('~> 2.0')
+* [RDF::AggregateRepo][] ('~> 2.0')
+* [RDF::Isomorphic][] ('~> 2.0')
+* [RDF::JSON][] ('~> 2.0')
 * [RDF::Microdata][] ('~> 2.0', '>= 2.0.2')
-* [RDF::N3][] ('~> 1.99')
-* [RDF::RDFa][] ('~> 1.99')
-* [RDF::RDFXML][] ('~> 1.1', '>= 1.1.5')
-* [RDF::Reasoner][] ('~> 0.3')
-* [RDF::TriG][] ('~> 1.99')
-* [RDF::TriX][] ('~> 1.99')
-* [RDF::Turtle][] ('~> 1.99')
-* [RDF::Vocab][] ('~> 0.8')
-* [JSON::LD][] (''~> 1.99')
-* [SPARQL][SPARQL gem] ('~> 1.99')
-* [SPARQL::Client][] ('~> 1.99')
+* [RDF::N3][] ('~> 2.0')
+* [RDF::RDFa][] ('~> 2.0')
+* [RDF::RDFXML][] ('~> 2.0')
+* [RDF::Reasoner][] ('~> 0.4')
+* [RDF::TriG][] ('~> 2.0')
+* [RDF::TriX][] ('~> 2.0')
+* [RDF::Turtle][] ('~> 2.0')
+* [RDF::Vocab][] ('~> 2.0')
+* [JSON::LD][] (''~> 2.0')
+* [LD::Patch][] (''~> 0.3')
+* [SPARQL][SPARQL gem] ('~> 2.0')
+* [SPARQL::Client][] ('~> 2.0')
 * [Nokogiri][] ('~> 1.6')
 * [Equivalent-XML](http://rubygems.org/gems/equivalent-xml) ('~> 0.6')
 
@@ -88,13 +90,15 @@ see <http://unlicense.org/> or the accompanying {file:UNLICENSE} file.
 [RDF::Turtle]:        http://ruby-rdf.github.com/rdf-turtle
 [RDF::Vocab]:         http://ruby-rdf.github.com/rdf-vocab
 [Linked Data]:        http://linkeddata.org/
-[Microdata]:          http://www.w3.org/TR/microdata-rdf/
-[N-Quads]:            http://www.w3.org/TR/n-quads/
-[N-Triples]:          http://www.w3.org/TR/n-triples/
+[Microdata]:          http://www.w3.org/TR/microdata-rdf/ "Microdata to RDF"
+[N-Quads]:            http://www.w3.org/TR/n-quads/ "N-Quads"
+[N-Triples]:          http://www.w3.org/TR/n-triples/ "N-Triples"
 [Notation3]:          http://en.wikipedia.org/wiki/Notation3
 [Nokogiri]:           http://rubygems.org/gems/nokogiri
 [JSON-LD]:            http://www.w3.org/TR/json-ld/ "JSON-LD 1.0"
 [JSON::LD]:           http://gkellogg.github.com/json-ld
+[LD  Patch]:          http://www.w3.org/TR/ldpatch/ "LD Patch"
+[LD::Patch]:          http://gkellogg.github.com/ld-patch
 [SPARQL gem]:         http://ruby-rdf.github.com/sparql
 [SPARQL::Client]:     http://ruby-rdf.github.com/sparql-client
 [RDF/JSON]:           http://n2.talis.com/wiki/RDF_JSON_Specification

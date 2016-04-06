@@ -55,5 +55,8 @@ module LinkedData
   # @see http://rubygems.org/gems/sparql-client
   require 'sparql/client'
 
+  # @see http://rubygems.org/gems/ld-patch
+  require 'ld/patch'
+
   include RDF
 end
