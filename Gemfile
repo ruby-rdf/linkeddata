@@ -20,12 +20,14 @@ gem 'rdf-turtle',         github: "ruby-rdf/rdf-turtle",          branch: "devel
 gem 'rdf-vocab',          github: "ruby-rdf/rdf-vocab",           branch: "develop"
 gem 'rdf-xsd',            github: "ruby-rdf/rdf-xsd",             branch: "develop"
 gem 'json-ld',            github: "ruby-rdf/json-ld",             branch: "develop"
+gem 'ld-patch',           github: "gkellogg/ld-patch",            branch: "develop"
 gem 'sparql',             github: "ruby-rdf/sparql",              branch: "develop"
 gem 'sparql-client',      github: "ruby-rdf/sparql-client",       branch: "develop"
 
+
 group :development do
   gem "ebnf",             github: "gkellogg/ebnf",                branch: "develop"
-  gem "sxp",              github: "gkellogg/sxp-ruby"
+  gem 'sxp',              github: "gkellogg/sxp-ruby",            branch: "develop"
   gem "wirble"
 end
 
