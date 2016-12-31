@@ -27,8 +27,7 @@ gem 'sparql-client',      github: "ruby-rdf/sparql-client",       branch: "devel
 
 group :development do
   gem "ebnf",             github: "gkellogg/ebnf",                branch: "develop"
-  gem 'sxp',              github: "gkellogg/sxp-ruby",            branch: "develop"
-  gem "wirble"
+  gem 'sxp',              github: "dryruby/sxp.rb",               branch: "develop"
 end
 
 platforms :rbx do
