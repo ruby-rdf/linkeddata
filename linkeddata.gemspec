@@ -27,7 +27,7 @@ Gem::Specification.new do |gem|
 
   gem.required_ruby_version      = '>= 2.2.2'
   gem.requirements               = []
-  gem.add_runtime_dependency     'rdf',                 '~> 2.1'
+  gem.add_runtime_dependency     'rdf',                 '~> 2.2'
   gem.add_runtime_dependency     'rdf-aggregate-repo',  '~> 2.1'
   gem.add_runtime_dependency     'rdf-isomorphic',      '~> 2.0'
   gem.add_runtime_dependency     'rdf-json',            '~> 2.0'
@@ -36,10 +36,10 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency     'rdf-rdfa',            '~> 2.1'
   gem.add_runtime_dependency     'rdf-rdfxml',          '~> 2.0'
   gem.add_runtime_dependency     'rdf-reasoner',        '~> 0.4'
-  gem.add_runtime_dependency     'rdf-tabular',         '~> 1.0'
+  gem.add_runtime_dependency     'rdf-tabular',         '~> 2.2'
   gem.add_runtime_dependency     'rdf-trig',            '~> 2.0'
   gem.add_runtime_dependency     'rdf-trix',            '~> 2.0'
-  gem.add_runtime_dependency     'rdf-turtle',          '~> 2.0'
+  gem.add_runtime_dependency     'rdf-turtle',          '~> 2.2'
   gem.add_runtime_dependency     'rdf-vocab',           '~> 2.1'
   gem.add_runtime_dependency     'rdf-xsd',             '~> 2.1'
   gem.add_runtime_dependency     'json-ld',             '~> 2.1'
@@ -51,6 +51,6 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'yard',                '~> 0.9'
   gem.add_development_dependency 'rspec',               '~> 3.5'
   gem.add_development_dependency 'rspec-its',           '~> 1.2'
-  gem.add_development_dependency 'rdf-spec',            '~> 2.0'
+  gem.add_development_dependency 'rdf-spec',            '~> 2.2'
   gem.post_install_message       = nil
 end
