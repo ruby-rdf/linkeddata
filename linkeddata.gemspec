@@ -33,6 +33,7 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency     'rdf-json',            '~> 2.0'
   gem.add_runtime_dependency     'rdf-microdata',       '~> 2.1'
   gem.add_runtime_dependency     'rdf-n3',              '~> 2.1'
+  gem.add_runtime_dependency     'rdf-normalize',       '~> 0.3'
   gem.add_runtime_dependency     'rdf-rdfa',            '~> 2.1'
   gem.add_runtime_dependency     'rdf-rdfxml',          '~> 2.0'
   gem.add_runtime_dependency     'rdf-reasoner',        '~> 0.4'
