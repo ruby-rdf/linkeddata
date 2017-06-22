@@ -15,6 +15,7 @@ consuming [Linked Data][] with Ruby as quick & easy as possible.
 * Includes [RDF/XML][] support using the [RDF::RDFXML][] gem.
 * Includes [Microdata][] support using the [RDF::Microdata][] gem.
 * Includes [Notation3][] support using the [RDF::N3][] gem.
+* Includes [RDF Dataset Normalization][Normalization] support using the [RDF::Normalize][] gem.
 * Includes  [RDFS][], [schema.org][] and limited [OWL][] reasoning using the [RDF::Reasoner][] gem.
 * Includes [RDFa][] support using the [RDF::RDFa][] gem.
 * Includes [RDF/JSON][] support using the [RDF::JSON][] gem.
@@ -81,6 +82,7 @@ see <http://unlicense.org/> or the accompanying {file:UNLICENSE} file.
 [RDF::JSON]:          http://ruby-rdf.github.com/rdf-json
 [RDF::Microdata]:     http://ruby-rdf.github.com/rdf-microdata
 [RDF::N3]:            http://ruby-rdf.github.com/rdf-n3
+[RDF::Normalize]:     http://ruby-rdf.github.com/rdf-normalize
 [RDF::Raptor]:        http://ruby-rdf.github.com/rdf-raptor
 [RDF::RDFa]:          http://ruby-rdf.github.com/rdf-rdfa
 [RDF::RDFXML]:        http://ruby-rdf.github.com/rdf-rdfxml
@@ -94,8 +96,9 @@ see <http://unlicense.org/> or the accompanying {file:UNLICENSE} file.
 [N-Quads]:            http://www.w3.org/TR/n-quads/ "N-Quads"
 [N-Triples]:          http://www.w3.org/TR/n-triples/ "N-Triples"
 [Notation3]:          http://en.wikipedia.org/wiki/Notation3
+[Normalization]:      https://json-ld.github.io/normalization/spec/ "RDF Dataset Normalization"
 [Nokogiri]:           http://rubygems.org/gems/nokogiri
-[JSON-LD]:            http://www.w3.org/TR/json-ld/ "JSON-LD 1.0"
+[JSON-LD]:            http://www.w3.org/TR/json-ld/ "JSON-LD 1.1"
 [JSON::LD]:           http://gkellogg.github.com/json-ld
 [LD  Patch]:          http://www.w3.org/TR/ldpatch/ "LD Patch"
 [LD::Patch]:          http://gkellogg.github.com/ld-patch

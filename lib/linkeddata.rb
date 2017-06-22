@@ -22,6 +22,9 @@ module LinkedData
   # @see http://rubygems.org/gems/rdf-n3
   require 'rdf/n3'
 
+  # @see http://rubygems.org/gems/rdf-normalize
+  require 'rdf/normalize'
+
   # @see http://rubygems.org/gems/rdf-rdfa
   require 'rdf/rdfa'
 
