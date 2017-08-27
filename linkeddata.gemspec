@@ -44,6 +44,7 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency     'rdf-xsd',             '~> 2.1'
   gem.add_runtime_dependency     'json-ld',             '~> 2.1'
   gem.add_runtime_dependency     'ld-patch',            '~> 0.3'
+  gem.add_runtime_dependency     'shex',                '~> 0.5'
   gem.add_runtime_dependency     'sparql',              '~> 2.1'
   gem.add_runtime_dependency     'sparql-client',       '~> 2.1'
   gem.add_runtime_dependency     'nokogiri',            '~> 1.7'
