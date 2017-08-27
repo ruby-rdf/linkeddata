@@ -59,6 +59,7 @@ include only the gems upon which they directly depend.
 * [RDF::Vocab][] ('~> 2.0')
 * [JSON::LD][] (''~> 2.0')
 * [LD::Patch][] (''~> 0.3')
+* [ShEx][ShEx gem] ('~> 0.5')
 * [SPARQL][SPARQL gem] ('~> 2.0')
 * [SPARQL::Client][] ('~> 2.0')
 * [Nokogiri][] ('~> 1.6')
@@ -102,6 +103,8 @@ see <http://unlicense.org/> or the accompanying {file:UNLICENSE} file.
 [JSON::LD]:           http://gkellogg.github.com/json-ld
 [LD  Patch]:          http://www.w3.org/TR/ldpatch/ "LD Patch"
 [LD::Patch]:          http://gkellogg.github.com/ld-patch
+[ShEx]:               http://shex.io/shex-semantics/
+[ShEx gem]:           http://ruby-rdf.github.com/shex
 [SPARQL gem]:         http://ruby-rdf.github.com/sparql
 [SPARQL::Client]:     http://ruby-rdf.github.com/sparql-client
 [RDF/JSON]:           http://n2.talis.com/wiki/RDF_JSON_Specification

@@ -10,7 +10,6 @@ Gem::Specification.new do |gem|
   gem.license            = 'Unlicense'
   gem.summary            = 'Linked Data for Ruby.'
   gem.description        = 'A metadistribution of RDF.rb including a full set of parsing/serialization plugins.'
-  gem.rubyforge_project  = 'datagraph'
 
   gem.authors            = ['Arto Bendiken', 'Ben Lavender', 'Gregg Kellogg', 'Tom Johnson']
   gem.email              = 'public-rdf-ruby@w3.org'
@@ -45,6 +44,7 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency     'rdf-xsd',             '~> 2.1'
   gem.add_runtime_dependency     'json-ld',             '~> 2.1'
   gem.add_runtime_dependency     'ld-patch',            '~> 0.3'
+  gem.add_runtime_dependency     'shex',                '~> 0.5'
   gem.add_runtime_dependency     'sparql',              '~> 2.1'
   gem.add_runtime_dependency     'sparql-client',       '~> 2.1'
   gem.add_runtime_dependency     'nokogiri',            '~> 1.7'
