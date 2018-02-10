@@ -53,7 +53,7 @@ include only the gems upon which they directly depend.
 * [RDF::Microdata][] ('>= 2.2.3', '< 4.0')
 * [RDF::N3][] ('>= 2.2', '< 4.0')
 * [RDF::Normalize][] ('~> 0.3', '>= 0.3.3')
-* [RDF::RDFa][] ('>= 2.2.4', '< 4.0')
+* [RDF::RDFa][] ('~> 0.3')
 * [RDF::RDFXML][] ('>= 2.2.1', '< 4.0')
 * [RDF::Reasoner][] ('~> 0.5.0')
 * [RDF::Tabular][] ('>= 2.2.1', '< 4.0')
