@@ -65,7 +65,7 @@ Note, this distribution requires [Nokogiri][] and [Nokogumbo][], which makes it 
 * [ShEx][ShEx gem] ('~> 0.5', '>= 0.5.2')
 * [SPARQL][SPARQL gem] ('~> 3.0')
 * [SPARQL::Client][] ('~> 3.0')
-* [Nokogiri][] ('~> 1.10')
+* [Nokogiri][] ('~> 1.8')
 * [Nokogumbo][] ('>= 1.5', '< 3.0')
 * [Equivalent-XML](http://rubygems.org/gems/equivalent-xml) ('~> 0.6')
 
