@@ -41,9 +41,7 @@ The [RDF::Raptor][] gem can be added to add support for high-performance readers
 * <http://ruby-rdf.github.io/>
 
 ## Dependencies
-Note, this distribution requires [Nokogiri][], which makes it not pure-ruby. Other than [RDF::Microdata][],
-Nokogiri is only a soft dependency, so environments where using native gems is not feasible should
-include only the gems upon which they directly depend.
+Note, this distribution requires [Nokogiri][] and [Nokogumbo][], which makes it not pure-ruby.
 
 * [Ruby](https://www.ruby-lang.org/en/) (>= 2.2.2)
 * [RDF.rb][] ('~> 3.0')
@@ -57,17 +55,18 @@ include only the gems upon which they directly depend.
 * [RDF::RDFXML][] ('>= 2.2.1', '< 4.0')
 * [RDF::Reasoner][] ('~> 0.5.0')
 * [RDF::Tabular][] ('>= 2.2.1', '< 4.0')
-* [RDF::TriG][] ('>= 2.2', '< 4.0')
+* [RDF::TriG][] ('~> 3.0')
 * [RDF::TriX][] ('>= 2.2.1', '< 4.0')
 * [RDF::Turtle][] ('~> 3.0')
 * [RDF::Vocab][] ('~> 3.0')
 * [RDF::XSD][] ('~> 3.0')
-* [JSON::LD][] ('>= 2.2.1', '< 4.0')
+* [JSON::LD][] ('~> 3.0')
 * [LD::Patch][] ('~> 0.3', '>= 0.3.3')
 * [ShEx][ShEx gem] ('~> 0.5', '>= 0.5.2')
 * [SPARQL][SPARQL gem] ('~> 3.0')
 * [SPARQL::Client][] ('~> 3.0')
-* [Nokogiri][] ('~> 1.8')
+* [Nokogiri][] ('~> 1.10')
+* [Nokogumbo][] ('>= 1.5', '< 3.0')
 * [Equivalent-XML](http://rubygems.org/gems/equivalent-xml) ('~> 0.6')
 
 ## Installation
@@ -113,6 +112,7 @@ see <http://unlicense.org/> or the accompanying {file:UNLICENSE} file.
 [N-Quads]:            http://www.w3.org/TR/n-quads/ "N-Quads"
 [N-Triples]:          http://www.w3.org/TR/n-triples/ "N-Triples"
 [Nokogiri]:           http://rubygems.org/gems/nokogiri
+[Nokogumbo]:          http://rubygems.org/gems/nokogumbo
 [Normalization]:      https://json-ld.github.io/normalization/spec/ "RDF Dataset Normalization"
 [Notation3]:          https://www.w3.org/TeamSubmission/n3/
 [OWL]:                http://www.w3.org/TR/owl2-overview/
