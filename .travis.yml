@@ -2,7 +2,7 @@ language: ruby
 script: "bundle exec rspec spec"
 before_install:
   - 'gem update --system --conservative || (gem i "rubygems-update:~>2.7" --no-document && update_rubygems)'
-  - 'gem update bundler --conservative'
+  - 'gem update bundler --conservative --force'
 env:
   - CI=true
 rvm:
@@ -13,12 +13,10 @@ rvm:
   - 2.6
   - 2.7
   - jruby-9
-  - rbx-3
-  - rbx-4
+  - rbx
 cache: bundler
 sudo: false
 matrix:
   allow_failures:
       - rvm: jruby-9
-      - rvm: rbx-3
-      - rvm: rbx-4
+      - rvm: rbx

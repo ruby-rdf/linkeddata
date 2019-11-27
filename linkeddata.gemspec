@@ -42,7 +42,9 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency     'sparql',              '~> 3.0','>= 3.0.2'
   gem.add_runtime_dependency     'sparql-client',       '~> 3.0','>= 3.0.1'
   gem.add_runtime_dependency     'nokogiri',            '~> 1.8'
-  gem.add_runtime_dependency     'nokogumbo',           '>= 1.5', '< 3.0'
+  unless [:java, :rbx].include?(gem.platform)
+    gem.add_runtime_dependency     'nokogumbo',           '>= 1.5', '< 3.0'
+  end
   gem.add_runtime_dependency     'equivalent-xml',      '~> 0.6'
   gem.add_development_dependency 'yard',                '~> 0.9'
   gem.add_development_dependency 'rspec',               '~> 3.9'
