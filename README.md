@@ -22,7 +22,7 @@ consuming [Linked Data][] with Ruby as quick & easy as possible.
 * Includes [TriG][] support using the [RDF::TriG][] gem.
 * Includes [TriX][] support using the [RDF::TriX][] gem.
 * Includes [Turtle][] support using the [RDF::Turtle][] gem.
-* Includes [JSON-LD][] support using the [JSON::LD][] gem.
+* Includes [JSON-LD][] support using the [JSON::LD][] and [JSON::LD::Preloaded] gems.
 * Includes [CSVW][] support for tabular data using the [RDF::Tabular][] gem.
 * Includes [LD Patch][] support using the [LD::Patch][] gem.
 * Includes Aggregate Repository support using [RDF::AggregateRepo][], which allows graphs and repositories to be aggregated from multiple sources.
@@ -61,6 +61,7 @@ Note, this distribution requires [Nokogiri][] and [Nokogumbo][], which makes it 
 * [RDF::Vocab][] ('~> 3.1')
 * [RDF::XSD][] ('~> 3.1')
 * [JSON::LD][] ('~> 3.1')
+* [JSON::LD::Preloaded][] ('~> 3.1')
 * [LD::Patch][] ('~> 3.1')
 * [ShEx][ShEx gem] ('~> 0.6')
 * [SPARQL][SPARQL gem] ('~> 3.1')
@@ -99,6 +100,7 @@ see <http://unlicense.org/> or the accompanying {file:UNLICENSE} file.
 [RDF::Vocab]:         http://www.rubydoc.info/github/ruby-rdf/rdf-vocab
 [RDF::XSD]:           http://www.rubydoc.info/github/ruby-rdf/rdf-xsd
 [JSON::LD]:           http://www.rubydoc.info/github/ruby-rdf/json-ld
+[JSON::LD::Preloaded]: http://www.rubydoc.info/github/ruby-rdf/json-ld-preloaded
 [LD::Patch]:          http://www.rubydoc.info/github/ruby-rdf/ld-patch
 [ShEx gem]:           http://www.rubydoc.info/github/ruby-rdf/shex
 [SPARQL gem]:         http://www.rubydoc.info/github/ruby-rdf/sparql
