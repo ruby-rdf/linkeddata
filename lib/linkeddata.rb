@@ -4,8 +4,11 @@ module LinkedData
   require 'rdf/ntriples'
   require 'rdf/nquads'
 
-  # @see http://rubygems.org/gems/json/ld
+  # @see http://rubygems.org/gems/json-ld
   require 'json/ld'
+
+  # @see http://rubygems.org/gems/json-ld-preloaded
+  require 'json/ld/preloaded'
 
   # @see http://rubygems.org/gems/rdf-aggregate-repo
   require 'rdf/aggregate_repo'
