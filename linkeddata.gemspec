@@ -8,7 +8,7 @@ Gem::Specification.new do |gem|
   gem.date               = File.mtime('VERSION').strftime('%Y-%m-%d')
 
   gem.name               = 'linkeddata'
-  gem.homepage           = 'http://ruby-rdf.github.com/'
+  gem.homepage           = 'https://ruby-rdf.github.com/'
   gem.license            = 'Unlicense'
   gem.summary            = 'Linked Data for Ruby.'
   gem.description        = 'A metadistribution of RDF.rb including a full set of parsing/serialization plugins.'
