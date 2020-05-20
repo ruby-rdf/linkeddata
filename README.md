@@ -68,11 +68,11 @@ Note, this distribution requires [Nokogiri][] and [Nokogumbo][], which makes it 
 * [SPARQL::Client][] ('~> 3.1')
 * [Nokogiri][] ('~> 1.10')
 * [Nokogumbo][] ('~> 2.0')
-* [Equivalent-XML](http://rubygems.org/gems/equivalent-xml) ('~> 0.6')
+* [Equivalent-XML](https://rubygems.org/gems/equivalent-xml) ('~> 0.6')
 
 ## Installation
 
-The recommended installation method is via [RubyGems](http://rubygems.org/).
+The recommended installation method is via [RubyGems](https://rubygems.org/).
 To install the latest official release of the gem, do:
 
     % [sudo] gem install linkeddata
@@ -113,8 +113,8 @@ see <http://unlicense.org/> or the accompanying {file:UNLICENSE} file.
 [Microdata]:          http://www.w3.org/TR/microdata-rdf/ "Microdata to RDF"
 [N-Quads]:            http://www.w3.org/TR/n-quads/ "N-Quads"
 [N-Triples]:          http://www.w3.org/TR/n-triples/ "N-Triples"
-[Nokogiri]:           http://rubygems.org/gems/nokogiri
-[Nokogumbo]:          http://rubygems.org/gems/nokogumbo
+[Nokogiri]:           https://rubygems.org/gems/nokogiri
+[Nokogumbo]:          https://rubygems.org/gems/nokogumbo
 [Normalization]:      https://json-ld.github.io/normalization/spec/ "RDF Dataset Normalization"
 [Notation3]:          https://www.w3.org/TeamSubmission/n3/
 [OWL]:                http://www.w3.org/TR/owl2-overview/
