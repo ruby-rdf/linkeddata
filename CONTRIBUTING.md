@@ -6,7 +6,7 @@ Community contributions are essential for keeping Ruby RDF great. We want to kee
 
 This repository uses [Git Flow](https://github.com/nvie/gitflow) to manage development and release activity. All submissions _must_ be on a feature branch based on the _develop_ branch to ease staging and integration.
 
-* create or respond to an issue on the [Github Repository](http://github.com/ruby-rdf/linkeddata/issues)
+* create or respond to an issue on the [Github Repository](https://github.com/ruby-rdf/linkeddata/issues)
 * Fork and clone the repo:
   `git clone git@github.com:your-username/linkeddata.git`
 * Install bundle:

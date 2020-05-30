@@ -8,7 +8,7 @@ Gem::Specification.new do |gem|
   gem.date               = File.mtime('VERSION').strftime('%Y-%m-%d')
 
   gem.name               = 'linkeddata'
-  gem.homepage           = 'http://ruby-rdf.github.com/'
+  gem.homepage           = 'https://ruby-rdf.github.com/'
   gem.license            = 'Unlicense'
   gem.summary            = 'Linked Data for Ruby.'
   gem.description        = 'A metadistribution of RDF.rb including a full set of parsing/serialization plugins.'
@@ -22,27 +22,27 @@ Gem::Specification.new do |gem|
 
   gem.required_ruby_version      = '>= 2.4'
   gem.requirements               = []
-  gem.add_runtime_dependency     'rdf',                 '~> 3.1', '>= 3.1.1'
+  gem.add_runtime_dependency     'rdf',                 '~> 3.1', '>= 3.1.2'
   gem.add_runtime_dependency     'rdf-aggregate-repo',  '~> 3.1'
   gem.add_runtime_dependency     'rdf-isomorphic',      '~> 3.1'
   gem.add_runtime_dependency     'rdf-json',            '~> 3.1'
   gem.add_runtime_dependency     'rdf-microdata',       '~> 3.1'
   gem.add_runtime_dependency     'rdf-n3',              '~> 3.1'
   gem.add_runtime_dependency     'rdf-normalize',       '~> 0.4'
-  gem.add_runtime_dependency     'rdf-rdfa',            '~> 3.1'
+  gem.add_runtime_dependency     'rdf-rdfa',            '~> 3.1', '>= 3.1.1'
   gem.add_runtime_dependency     'rdf-rdfxml',          '~> 3.1'
-  gem.add_runtime_dependency     'rdf-reasoner',        '~> 0.6'
+  gem.add_runtime_dependency     'rdf-reasoner',        '~> 0.6', '>= 0.6.1'
   gem.add_runtime_dependency     'rdf-tabular',         '~> 3.1'
   gem.add_runtime_dependency     'rdf-trig',            '~> 3.1'
   gem.add_runtime_dependency     'rdf-trix',            '~> 3.1'
-  gem.add_runtime_dependency     'rdf-turtle',          '~> 3.1'
+  gem.add_runtime_dependency     'rdf-turtle',          '~> 3.1', '>= 3.1.1'
   gem.add_runtime_dependency     'rdf-vocab',           '~> 3.1', '>= 3.1.2'
   gem.add_runtime_dependency     'rdf-xsd',             '~> 3.1'
   gem.add_runtime_dependency     'json-ld',             '~> 3.1', '>= 3.1.1'
   gem.add_runtime_dependency     'json-ld-preloaded',   '~> 3.1', '>= 3.1.1'
   gem.add_runtime_dependency     'ld-patch',            '~> 3.1'
   gem.add_runtime_dependency     'shex',                '~> 0.6'
-  gem.add_runtime_dependency     'sparql',              '~> 3.1'
+  gem.add_runtime_dependency     'sparql',              '~> 3.1', '>= 3.1.1'
   gem.add_runtime_dependency     'sparql-client',       '~> 3.1'
   gem.add_runtime_dependency     'nokogiri',            '~> 1.10'
   gem.add_runtime_dependency     'nokogumbo',           '~> 2.0' unless is_java
@@ -50,6 +50,6 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'yard',                '~> 0.9'
   gem.add_development_dependency 'rspec',               '~> 3.9'
   gem.add_development_dependency 'rspec-its',           '~> 1.3'
-  gem.add_development_dependency 'rdf-spec',            '~> 3.1'
+  gem.add_development_dependency 'rdf-spec',            '~> 3.1', '>= 3.1.1'
   gem.post_install_message       = nil
 end
