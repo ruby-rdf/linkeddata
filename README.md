@@ -7,7 +7,7 @@ consuming [Linked Data][] with Ruby as quick & easy as possible.
 * <http://www.rubydoc.info/github/ruby-rdf/linkeddata>
 
 [![Gem Version](https://badge.fury.io/rb/linkeddata.png)](http://badge.fury.io/rb/linkeddata)
-[![Build Status](https://github.com/ruby-rdf/linkeddata./workflows/CI/badge.svg?branch=develop)](https://github.com/ruby-rdf/linkeddata./actions?query=workflow%3ACI)
+[![Build Status](https://github.com/ruby-rdf/linkeddata/workflows/CI/badge.svg?branch=develop)](https://github.com/ruby-rdf/linkeddata/actions?query=workflow%3ACI)
 [![Gitter chat](https://badges.gitter.im/ruby-rdf/rdf.png)](https://gitter.im/ruby-rdf/rdf)
 
 ## Features
