@@ -16,7 +16,7 @@ Gem::Specification.new do |gem|
   gem.authors            = ['Arto Bendiken', 'Ben Lavender', 'Gregg Kellogg', 'Tom Johnson']
   gem.email              = 'public-rdf-ruby@w3.org'
 
-  gem.platform           = is_java ? 'java' : Gem::Platform::RUBY
+  gem.platform           = Gem::Platform::RUBY
   gem.files              = %w(AUTHORS CREDITS README.md UNLICENSE VERSION lib/linkeddata.rb)
   gem.require_paths      = %w(lib)
 
@@ -48,7 +48,7 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency     'nokogumbo',           '~> 2.0' unless is_java
   gem.add_runtime_dependency     'equivalent-xml',      '~> 0.6'
   gem.add_development_dependency 'yard',                '~> 0.9'
-  gem.add_development_dependency 'rspec',               '~> 3.9'
+  gem.add_development_dependency 'rspec',               '~> 3.10'
   gem.add_development_dependency 'rspec-its',           '~> 1.3'
   gem.add_development_dependency 'rdf-spec',            '~> 3.1', '>= 3.1.1'
   gem.post_install_message       = nil
