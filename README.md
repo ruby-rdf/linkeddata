@@ -20,6 +20,8 @@ consuming [Linked Data][] with Ruby as quick & easy as possible.
 * Includes  [RDFS][], [schema.org][] and limited [OWL][] reasoning using the [RDF::Reasoner][] gem.
 * Includes [RDFa][] support using the [RDF::RDFa][] gem.
 * Includes [RDF/JSON][] support using the [RDF::JSON][] gem.
+* Includes [SHACL][] support using the [SHACL][] gem.
+* Includes [ShEx][] support using the [ShEx][] gem.
 * Includes [TriG][] support using the [RDF::TriG][] gem.
 * Includes [TriX][] support using the [RDF::TriX][] gem.
 * Includes [Turtle][] support using the [RDF::Turtle][] gem.
@@ -64,6 +66,7 @@ Note, this distribution requires [Nokogiri][] and [Nokogumbo][], which makes it 
 * [JSON::LD][] ('~> 3.1')
 * [JSON::LD::Preloaded][] ('~> 3.1')
 * [LD::Patch][] ('~> 3.1')
+* [SHACL][SHACL gem] ('~> 0.1')
 * [ShEx][ShEx gem] ('~> 0.6')
 * [SPARQL][SPARQL gem] ('~> 3.1')
 * [SPARQL::Client][] ('~> 3.1')
@@ -124,6 +127,7 @@ see <http://unlicense.org/> or the accompanying {file:UNLICENSE} file.
 [JSON::LD]:           http://www.rubydoc.info/github/ruby-rdf/json-ld
 [JSON::LD::Preloaded]: http://www.rubydoc.info/github/ruby-rdf/json-ld-preloaded
 [LD::Patch]:          http://www.rubydoc.info/github/ruby-rdf/ld-patch
+[SHACL gem]:           http://www.rubydoc.info/github/ruby-rdf/shacl
 [ShEx gem]:           http://www.rubydoc.info/github/ruby-rdf/shex
 [SPARQL gem]:         http://www.rubydoc.info/github/ruby-rdf/sparql
 [SPARQL::Client]:     http://www.rubydoc.info/github/ruby-rdf/sparql-client
@@ -146,6 +150,7 @@ see <http://unlicense.org/> or the accompanying {file:UNLICENSE} file.
 [RDFa]:               http://www.w3.org/TR/rdfa-core/
 [RDFS]:               http://www.w3.org/TR/rdf11-mt/
 [schema.org]:         http://schema.org/
+[SHACL]:               https://www.w3.org/TR/shacl/
 [ShEx]:               http://shex.io/shex-semantics/
 [SPARQL]:             http://www.w3.org/TR/sparql11-overview/
 [TriG]:               http://www.w3.org/TR/trig/
