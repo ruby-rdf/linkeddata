@@ -55,6 +55,9 @@ module LinkedData
   # @see https://rubygems.org/gems/rdf-xsd
   require 'rdf/xsd'
 
+  # @see https://rubygems.org/gems/shacl
+  require 'shacl'
+
   # @see https://rubygems.org/gems/shex
   require 'shex'
 

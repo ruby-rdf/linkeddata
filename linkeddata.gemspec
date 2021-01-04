@@ -42,6 +42,7 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency     'json-ld',             '~> 3.1', '>= 3.1.7'
   gem.add_runtime_dependency     'json-ld-preloaded',   '~> 3.1', '>= 3.1.4'
   gem.add_runtime_dependency     'ld-patch',            '~> 3.1', '>= 3.1.2'
+  gem.add_runtime_dependency     'shacl',               '~> 0.1', '>= 0.1.0'
   gem.add_runtime_dependency     'shex',                '~> 0.6', '>= 0.6.1'
   gem.add_runtime_dependency     'sparql',              '~> 3.1', '>= 3.1.4'
   gem.add_runtime_dependency     'sparql-client',       '~> 3.1', '>= 3.1.1'
