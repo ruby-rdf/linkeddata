@@ -22,7 +22,7 @@ Gem::Specification.new do |gem|
 
   gem.required_ruby_version      = '>= 2.4'
   gem.requirements               = []
-  gem.add_runtime_dependency     'rdf',                 '~> 3.1', '>= 3.1.13'
+  gem.add_runtime_dependency     'rdf',                 '~> 3.1', '>= 3.1.14'
   gem.add_runtime_dependency     'rdf-aggregate-repo',  '~> 3.1'
   gem.add_runtime_dependency     'rdf-isomorphic',      '~> 3.1', '>= 3.1.1'
   gem.add_runtime_dependency     'rdf-json',            '~> 3.1'
@@ -35,7 +35,7 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency     'rdf-reasoner',        '~> 0.7', '>= 0.7.2'
   gem.add_runtime_dependency     'rdf-tabular',         '~> 3.1', '>= 3.1.1'
   gem.add_runtime_dependency     'rdf-trig',            '~> 3.1', '>= 3.1.2'
-  gem.add_runtime_dependency     'rdf-trix',            '~> 3.1'
+  gem.add_runtime_dependency     'rdf-trix',            '~> 3.1', '>= 3.1.1'
   gem.add_runtime_dependency     'rdf-turtle',          '~> 3.1', '>= 3.1.3'
   gem.add_runtime_dependency     'rdf-vocab',           '~> 3.1', '>= 3.1.12'
   gem.add_runtime_dependency     'rdf-xsd',             '~> 3.1'
@@ -44,10 +44,9 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency     'ld-patch',            '~> 3.1', '>= 3.1.3'
   gem.add_runtime_dependency     'shacl',               '~> 0.1', '>= 0.1.1'
   gem.add_runtime_dependency     'shex',                '~> 0.6', '>= 0.6.1'
-  gem.add_runtime_dependency     'sparql',              '~> 3.1', '>= 3.1.5'
+  gem.add_runtime_dependency     'sparql',              '~> 3.1', '>= 3.1.7'
   gem.add_runtime_dependency     'sparql-client',       '~> 3.1', '>= 3.1.2'
-  gem.add_runtime_dependency     'nokogiri',            '~> 1.10'
-  gem.add_runtime_dependency     'nokogumbo',           '~> 2.0' unless is_java
+  gem.add_runtime_dependency     'nokogiri',            '~> 1.12'
   gem.add_runtime_dependency     'equivalent-xml',      '~> 0.6'
   gem.add_development_dependency 'yard',                '~> 0.9'
   gem.add_development_dependency 'rspec',               '~> 3.10'

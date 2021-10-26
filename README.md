@@ -44,7 +44,7 @@ The [RDF::Raptor][] gem can be added to add support for high-performance readers
 * <http://ruby-rdf.github.io/>
 
 ## Dependencies
-Note, this distribution requires [Nokogiri][] and [Nokogumbo][], which makes it not pure-ruby.
+Note, this distribution requires [Nokogiri][], which makes it not pure-ruby.
 
 * [Ruby](https://www.ruby-lang.org/en/) (>= 2.4)
 * [RDF.rb][] ('~> 3.1')
@@ -71,7 +71,6 @@ Note, this distribution requires [Nokogiri][] and [Nokogumbo][], which makes it 
 * [SPARQL][SPARQL gem] ('~> 3.1')
 * [SPARQL::Client][] ('~> 3.1')
 * [Nokogiri][] ('~> 1.10')
-* [Nokogumbo][] ('~> 2.0')
 * [Equivalent-XML](https://rubygems.org/gems/equivalent-xml) ('~> 0.6')
 
 ## Installation
@@ -140,7 +139,6 @@ see <http://unlicense.org/> or the accompanying {file:UNLICENSE} file.
 [N-Quads]:            http://www.w3.org/TR/n-quads/ "N-Quads"
 [N-Triples]:          http://www.w3.org/TR/n-triples/ "N-Triples"
 [Nokogiri]:           https://rubygems.org/gems/nokogiri
-[Nokogumbo]:          https://rubygems.org/gems/nokogumbo
 [Normalization]:      https://json-ld.github.io/normalization/spec/ "RDF Dataset Normalization"
 [Notation3]:          https://www.w3.org/TeamSubmission/n3/
 [OWL]:                http://www.w3.org/TR/owl2-overview/
