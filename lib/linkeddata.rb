@@ -13,6 +13,9 @@ module LinkedData
   # @see https://rubygems.org/gems/rdf-aggregate-repo
   require 'rdf/aggregate_repo'
 
+  # @see https://rubygems.org/gems/rdf-hamster-repo
+  require 'rdf/hamster_repo'
+
   # @see https://rubygems.org/gems/rdf-isomorphic
   require 'rdf/isomorphic'
 
@@ -27,6 +30,9 @@ module LinkedData
 
   # @see https://rubygems.org/gems/rdf-normalize
   require 'rdf/normalize'
+
+  # @see https://rubygems.org/gems/rdf-ordered-repo
+  require 'rdf/ordered_repo'
 
   # @see https://rubygems.org/gems/rdf-rdfa
   require 'rdf/rdfa'

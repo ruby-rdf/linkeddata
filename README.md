@@ -46,31 +46,33 @@ The [RDF::Raptor][] gem can be added to add support for high-performance readers
 ## Dependencies
 Note, this distribution requires [Nokogiri][], which makes it not pure-ruby.
 
-* [Ruby](https://www.ruby-lang.org/en/) (>= 2.4)
-* [RDF.rb][] ('~> 3.1')
-* [RDF::AggregateRepo][] ('~> 3.1')
-* [RDF::Isomorphic][] ('~> 3.1')
-* [RDF::JSON][] ('~> 3.1')
-* [RDF::Microdata][] ('~> 3.1')
-* [RDF::N3][] ('~> 3.1')
-* [RDF::Normalize][] ('~> 0.4')
-* [RDF::RDFa][] ('~> 3.1')
-* [RDF::RDFXML][] ('~> 3.1')
-* [RDF::Reasoner][] ('~> 0.6')
-* [RDF::Tabular][] ('~> 3.1')
-* [RDF::TriG][] ('~> 3.1')
-* [RDF::TriX][] ('~> 3.1')
-* [RDF::Turtle][] ('~> 3.1')
-* [RDF::Vocab][] ('~> 3.1')
-* [RDF::XSD][] ('~> 3.1')
-* [JSON::LD][] ('~> 3.1')
-* [JSON::LD::Preloaded][] ('~> 3.1')
-* [LD::Patch][] ('~> 3.1')
-* [SHACL][SHACL gem] ('~> 0.1')
-* [ShEx][ShEx gem] ('~> 0.6')
-* [SPARQL][SPARQL gem] ('~> 3.1')
-* [SPARQL::Client][] ('~> 3.1')
-* [Nokogiri][] ('~> 1.10')
+* [Ruby](https://www.ruby-lang.org/en/) (>= 2.6)
+* [RDF.rb][] ('~> 3.2')
+* [RDF::AggregateRepo][] ('~> 3.2')
+* [RDF::HamsterRepo][] ('~> 0.5')
+* [RDF::Isomorphic][] ('~> 3.2')
+* [RDF::JSON][] ('~> 3.2')
+* [RDF::Microdata][] ('~> 3.2')
+* [RDF::N3][] ('~> 3.2')
+* [RDF::Normalize][] ('~> 0.5')
+* [RDF::OrderedRepo][] ('~> 0.5')
+* [RDF::RDFa][] ('~> 3.2')
+* [RDF::RDFXML][] ('~> 3.2')
+* [RDF::Reasoner][] ('~> 0.7')
+* [RDF::Tabular][] ('~> 3.2')
+* [RDF::TriG][] ('~> 3.2')
+* [RDF::TriX][] ('~> 3.2')
+* [RDF::Turtle][] ('~> 3.2')
+* [RDF::Vocab][] ('~> 3.2')
+* [RDF::XSD][] ('~> 3.2')
+* [JSON::LD][] ('~> 3.2')
+* [JSON::LD::Preloaded][] ('~> 3.2')
+* [LD::Patch][] ('~> 3.2')
+* [SHACL][SHACL gem] ('~> 0.2')
+* [ShEx][ShEx gem] ('~> 0.7')
+* [SPARQL][SPARQL gem] ('~> 3.2')
+* [SPARQL::Client][] ('~> 3.2')
+* [Nokogiri][] ('~> 1.12')
 * [Equivalent-XML](https://rubygems.org/gems/equivalent-xml) ('~> 0.6')
 
 ## Installation
@@ -108,11 +110,13 @@ see <http://unlicense.org/> or the accompanying {file:UNLICENSE} file.
 
 [RDF.rb]:             http://www.rubydoc.info/github/ruby-rdf/rdf
 [RDF::AggregateRepo]: http://www.rubydoc.info/github/ruby-rdf/rdf-aggregate-repo
+[RDF::HamsterRepo]:    http://www.rubydoc.info/github/ruby-rdf/rdf-hamster-repo
 [RDF::Isomorphic]:    http://www.rubydoc.info/github/ruby-rdf/rdf-isomorphic
 [RDF::JSON]:          http://www.rubydoc.info/github/ruby-rdf/rdf-json
 [RDF::Microdata]:     http://www.rubydoc.info/github/ruby-rdf/rdf-microdata
 [RDF::N3]:            http://www.rubydoc.info/github/ruby-rdf/rdf-n3
 [RDF::Normalize]:     http://www.rubydoc.info/github/ruby-rdf/rdf-normalize
+[RDF::Ordredepo]:    http://www.rubydoc.info/github/ruby-rdf/rdf-ordered-repo
 [RDF::Raptor]:        http://www.rubydoc.info/github/ruby-rdf/rdf-raptor
 [RDF::RDFa]:          http://www.rubydoc.info/github/ruby-rdf/rdf-rdfa
 [RDF::RDFXML]:        http://www.rubydoc.info/github/ruby-rdf/rdf-rdfxml
