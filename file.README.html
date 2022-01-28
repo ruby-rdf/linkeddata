@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  File: README
+  
+    &mdash; Linked Data for Ruby
+  
+</title>
+
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+
+  <link rel="stylesheet" href="css/common.css" type="text/css" />
+
+<script type="text/javascript">
+  pathId = "README";
+  relpath = '';
+</script>
+
+
+  <script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="js/app.js"></script>
+
+
+  </head>
+  <body>
+    <div class="nav_wrap">
+      <iframe id="nav" src="file_list.html?1"></iframe>
+      <div id="resizer"></div>
+    </div>
+
+    <div id="main" tabindex="-1">
+      <div id="header">
+        <div id="menu">
+  
+    <a href="_index.html">Index</a> &raquo; 
+    <span class="title">File: README</span>
+  
+</div>
+
+        <div id="search">
+  
+    <a class="full_list_link" id="class_list_link"
+        href="class_list.html">
+
+        <svg width="24" height="24">
+          <rect x="0" y="4" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="12" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="20" width="24" height="4" rx="1" ry="1"></rect>
+        </svg>
+    </a>
+  
+</div>
+        <div class="clear"></div>
+      </div>
+
+      <div id="content"><div id='filecontents'>
+<h1 id="label-Linked+Data+for+Ruby">Linked Data for Ruby</h1>
+
+<p>This is a meta-distribution of <a href="https://ruby-rdf.github.io/rdf">RDF.rb</a> including all currently available and usable parsing/serialization extensions, intended to make producing and consuming <a href="http://linkeddata.org/">Linked Data</a> with Ruby as quick &amp; easy as possible.</p>
+
+<p><a href="http://badge.fury.io/rb/linkeddata"><img src="https://badge.fury.io/rb/linkeddata.png"></a> <a href="https://github.com/ruby-rdf/linkeddata/actions?query=workflow%3ACI"><img src="https://github.com/ruby-rdf/linkeddata/workflows/CI/badge.svg?branch=develop"></a> <a href="https://gitter.im/ruby-rdf/rdf"><img src="https://badges.gitter.im/ruby-rdf/rdf.png"></a></p>
+
+<h2 id="label-Features">Features</h2>
+<ul><li>
+<p>Includes <a href="http://www.w3.org/TR/n-triples/">N-Triples</a> and <a href="http://www.w3.org/TR/n-quads/">N-Quads</a> support using <a href="https://ruby-rdf.github.io/rdf">RDF.rb</a>.</p>
+</li><li>
+<p>Includes <a href="http://www.w3.org/TR/rdf-syntax-grammar/">RDF/XML</a> support using the <a href="https://ruby-rdf.github.io/rdf-rdfxml">RDF::RDFXML</a> gem.</p>
+</li><li>
+<p>Includes <a href="http://www.w3.org/TR/microdata-rdf/">Microdata</a> support using the <a href="https://ruby-rdf.github.io/rdf-microdata">RDF::Microdata</a> gem.</p>
+</li><li>
+<p>Includes <a href="https://www.w3.org/TeamSubmission/n3/">Notation3</a> support using the <a href="https://ruby-rdf.github.io/rdf-n3">RDF::N3</a> gem.</p>
+</li><li>
+<p>Includes <a href="https://json-ld.github.io/normalization/spec/">RDF Dataset Normalization</a> support using the <a href="https://ruby-rdf.github.io/rdf-normalize">RDF::Normalize</a> gem.</p>
+</li><li>
+<p>Includes <a href="http://www.w3.org/TR/rdf11-mt/">RDFS</a>, <a href="http://schema.org/">schema.org</a> and limited <a href="http://www.w3.org/TR/owl2-overview/">OWL</a> reasoning using the <a href="https://ruby-rdf.github.io/rdf-reasoner">RDF::Reasoner</a> gem.</p>
+</li><li>
+<p>Includes <a href="http://www.w3.org/TR/rdfa-core/">RDFa</a> support using the <a href="https://ruby-rdf.github.io/rdf-rdfa">RDF::RDFa</a> gem.</p>
+</li><li>
+<p>Includes <a href="https://dvcs.w3.org/hg/rdf/raw-file/default/rdf-json/index.html">RDF/JSON</a> support using the <a href="https://ruby-rdf.github.io/rdf-json">RDF::JSON</a> gem.</p>
+</li><li>
+<p>Includes <a href="https://www.w3.org/TR/shacl/">SHACL</a> support using the <a href="https://www.w3.org/TR/shacl/">SHACL</a> gem.</p>
+</li><li>
+<p>Includes <a href="http://shex.io/shex-semantics/">ShEx</a> support using the <a href="http://shex.io/shex-semantics/">ShEx</a> gem.</p>
+</li><li>
+<p>Includes <a href="http://www.w3.org/TR/trig/">TriG</a> support using the <a href="https://ruby-rdf.github.io/rdf-trig">RDF::TriG</a> gem.</p>
+</li><li>
+<p>Includes <a href="http://www.w3.org/2004/03/trix/">TriX</a> support using the <a href="https://ruby-rdf.github.io/rdf-trix">RDF::TriX</a> gem.</p>
+</li><li>
+<p>Includes <a href="http://www.w3.org/TR/turtle/">Turtle</a> support using the <a href="https://ruby-rdf.github.io/rdf-turtle">RDF::Turtle</a> gem.</p>
+</li><li>
+<p>Includes <a href="http://www.w3.org/TR/json-ld/">JSON-LD</a> support using the <a href="https://ruby-rdf.github.io/json-ld">JSON::LD</a> and <a href="https://ruby-rdf.github.io/json-ld-preloaded">JSON::LD::Preloaded</a> gems.</p>
+</li><li>
+<p>Includes <a href="https://www.w3.org/standards/techs/csv#w3c_all">CSVW</a> support for tabular data using the <a href="https://ruby-rdf.github.io/rdf-tabular">RDF::Tabular</a> gem.</p>
+</li><li>
+<p>Includes <a href="http://www.w3.org/TR/ldpatch/">LD Patch</a> support using the <a href="https://ruby-rdf.github.io/ld-patch">LD::Patch</a> gem.</p>
+</li><li>
+<p>Includes Aggregate Repository support using <a href="https://ruby-rdf.github.io/rdf-aggregate-repo">RDF::AggregateRepo</a>, which allows graphs and repositories to be aggregated from multiple sources.</p>
+</li><li>
+<p>Includes <a href="http://www.w3.org/TR/sparql11-overview/">SPARQL</a> support using the <a href="https://ruby-rdf.github.io/sparql">SPARQL</a> and <a href="https://ruby-rdf.github.io/sparql-client">SPARQL::Client</a> gems</p>
+</li><li>
+<p>Includes numerous compiled vocabularies using the <a href="https://ruby-rdf.github.io/rdf-vocab">RDF::Vocab</a> gem.</p>
+</li><li>
+<p>Includes support for all [XSD datatypes][] using the <a href="https://ruby-rdf.github.io/rdf-xsd">RDF::XSD</a> gem.</p>
+</li><li>
+<p>Maintains release parity with RDF.rb.</p>
+</li></ul>
+
+<p>The <a href="https://ruby-rdf.github.io/rdf-raptor">RDF::Raptor</a> gem can be added to add support for high-performance readers and writers using <a href="http://librdf.org/raptor/">Raptor</a></p>
+
+<h2 id="label-Examples">Examples</h2>
+
+<pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_require'>require</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>linkeddata</span><span class='tstring_end'>&#39;</span></span>
+</code></pre>
+
+<h2 id="label-Documentation">Documentation</h2>
+<ul><li>
+<p><a href="http://ruby-rdf.github.io">ruby-rdf.github.io</a>/</p>
+</li></ul>
+
+<h2 id="label-Dependencies">Dependencies</h2>
+
+<p>Note, this distribution requires <a href="https://rubygems.org/gems/nokogiri">Nokogiri</a>, which makes it not pure-ruby.</p>
+<ul><li>
+<p><a href="https://www.ruby-lang.org/en/">Ruby</a> (&gt;= 2.6)</p>
+</li><li>
+<p><a href="https://ruby-rdf.github.io/rdf">RDF.rb</a> (‘~&gt; 3.2’)</p>
+</li><li>
+<p><a href="https://ruby-rdf.github.io/rdf-aggregate-repo">RDF::AggregateRepo</a> (‘~&gt; 3.2’)</p>
+</li><li>
+<p><a href="https://ruby-rdf.github.io/rdf-hamster-repo">RDF::HamsterRepo</a> (‘~&gt; 0.5’)</p>
+</li><li>
+<p><a href="https://ruby-rdf.github.io/rdf-isomorphic">RDF::Isomorphic</a> (‘~&gt; 3.2’)</p>
+</li><li>
+<p><a href="https://ruby-rdf.github.io/rdf-json">RDF::JSON</a> (‘~&gt; 3.2’)</p>
+</li><li>
+<p><a href="https://ruby-rdf.github.io/rdf-microdata">RDF::Microdata</a> (‘~&gt; 3.2’)</p>
+</li><li>
+<p><a href="https://ruby-rdf.github.io/rdf-n3">RDF::N3</a> (‘~&gt; 3.2’)</p>
+</li><li>
+<p><a href="https://ruby-rdf.github.io/rdf-normalize">RDF::Normalize</a> (‘~&gt; 0.5’)</p>
+</li><li>
+<p>[RDF::OrderedRepo][] (‘~&gt; 0.5’)</p>
+</li><li>
+<p><a href="https://ruby-rdf.github.io/rdf-rdfa">RDF::RDFa</a> (‘~&gt; 3.2’)</p>
+</li><li>
+<p><a href="https://ruby-rdf.github.io/rdf-rdfxml">RDF::RDFXML</a> (‘~&gt; 3.2’)</p>
+</li><li>
+<p><a href="https://ruby-rdf.github.io/rdf-reasoner">RDF::Reasoner</a> (‘~&gt; 0.7’)</p>
+</li><li>
+<p><a href="https://ruby-rdf.github.io/rdf-tabular">RDF::Tabular</a> (‘~&gt; 3.2’)</p>
+</li><li>
+<p><a href="https://ruby-rdf.github.io/rdf-trig">RDF::TriG</a> (‘~&gt; 3.2’)</p>
+</li><li>
+<p><a href="https://ruby-rdf.github.io/rdf-trix">RDF::TriX</a> (‘~&gt; 3.2’)</p>
+</li><li>
+<p><a href="https://ruby-rdf.github.io/rdf-turtle">RDF::Turtle</a> (‘~&gt; 3.2’)</p>
+</li><li>
+<p><a href="https://ruby-rdf.github.io/rdf-vocab">RDF::Vocab</a> (‘~&gt; 3.2’)</p>
+</li><li>
+<p><a href="https://ruby-rdf.github.io/rdf-xsd">RDF::XSD</a> (‘~&gt; 3.2’)</p>
+</li><li>
+<p><a href="https://ruby-rdf.github.io/json-ld">JSON::LD</a> (‘~&gt; 3.2’)</p>
+</li><li>
+<p><a href="https://ruby-rdf.github.io/json-ld-preloaded">JSON::LD::Preloaded</a> (‘~&gt; 3.2’)</p>
+</li><li>
+<p><a href="https://ruby-rdf.github.io/ld-patch">LD::Patch</a> (‘~&gt; 3.2’)</p>
+</li><li>
+<p><a href="https://ruby-rdf.github.io/shacl">SHACL</a> (‘~&gt; 0.2’)</p>
+</li><li>
+<p><a href="https://ruby-rdf.github.io/shex">ShEx</a> (‘~&gt; 0.7’)</p>
+</li><li>
+<p><a href="https://ruby-rdf.github.io/sparql">SPARQL</a> (‘~&gt; 3.2’)</p>
+</li><li>
+<p><a href="https://ruby-rdf.github.io/sparql-client">SPARQL::Client</a> (‘~&gt; 3.2’)</p>
+</li><li>
+<p><a href="https://rubygems.org/gems/nokogiri">Nokogiri</a> (‘~&gt; 1.12’)</p>
+</li><li>
+<p><a href="https://rubygems.org/gems/equivalent-xml">Equivalent-XML</a> (‘~&gt; 0.6’)</p>
+</li></ul>
+
+<h2 id="label-Installation">Installation</h2>
+
+<p>The recommended installation method is via <a href="https://rubygems.org/">RubyGems</a>. To install the latest official release of the gem, do:</p>
+
+<pre class="code ruby"><code class="ruby">% [sudo] gem install linkeddata
+</code></pre>
+
+<h2 id="label-Contributing">Contributing</h2>
+
+<p>This repository uses <a href="https://github.com/nvie/gitflow">Git Flow</a> to mange development and release activity. All submissions <em>must</em> be on a feature branch based on the <em>develop</em> branch to ease staging and integration.</p>
+<ul><li>
+<p>Do your best to adhere to the existing coding conventions and idioms.</p>
+</li><li>
+<p>Don’t use hard tabs, and don’t leave trailing whitespace on any line.</p>
+</li><li>
+<p>Do document every method you add using <a href="https://yardoc.org/">YARD</a> annotations. Read the  <a href="https://rubydoc.info/docs/yard/file/docs/GettingStarted.md">tutorial</a> or just look at the existing code for examples.</p>
+</li><li>
+<p>Don’t touch the <code>.gemspec</code>, <code>VERSION</code> or <code>AUTHORS</code> files. If you need to  change them, do so on your private branch only.</p>
+</li><li>
+<p>Do feel free to add yourself to the <code>CREDITS</code> file and the corresponding  list in the <code>README</code>. Alphabetical order applies.</p>
+</li><li>
+<p>Do note that in order for us to merge any non-trivial changes (as a rule  of thumb, additions larger than about 15 lines of code), we need an  explicit <a href="https://unlicense.org/#unlicensing-contributions">public domain dedication</a> on record from you,  which you will be asked to agree to on the first commit to a repo within the organization.  Note that the agreement applies to all repos in the <a href="https://github.com/ruby-rdf/">Ruby RDF</a> organization.</p>
+</li></ul>
+
+<h2 id="label-License">License</h2>
+
+<p>This is free and unencumbered public domain software. For more information, see <a href="http://unlicense.org">unlicense.org</a>/ or the accompanying <a href="file.UNLICENSE.html" title="UNLICENSE">UNLICENSE</a> file.</p>
+</div></div>
+
+      <div id="footer">
+  Generated on Fri Jan 28 19:21:55 2022 by
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.9.27 (ruby-3.1.0).
+</div>
+
+    </div>
+  </body>
+</html>
