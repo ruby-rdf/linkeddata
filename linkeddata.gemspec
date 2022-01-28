@@ -8,10 +8,17 @@ Gem::Specification.new do |gem|
   gem.date               = File.mtime('VERSION').strftime('%Y-%m-%d')
 
   gem.name               = 'linkeddata'
-  gem.homepage           = 'https://ruby-rdf.github.com/'
+  gem.homepage           = 'https://ruby-rdf.github.io/linkeddata'
   gem.license            = 'Unlicense'
   gem.summary            = 'Linked Data for Ruby.'
   gem.description        = 'A metadistribution of RDF.rb including a full set of parsing/serialization plugins.'
+  gem.metadata           = {
+    "documentation_uri" => "http://rdf.greggkellogg.net/yard/index.html",
+    "bug_tracker_uri"   => "https://github.com/ruby-rdf/rdf/issues",
+    "homepage_uri"      => "https://github.com/ruby-rdf/linkeddata",
+    "mailing_list_uri"  => "https://lists.w3.org/Archives/Public/public-rdf-ruby/",
+    "source_code_uri"   => "https://github.com/ruby-rdf/linkeddata",
+  }
 
   gem.authors            = ['Arto Bendiken', 'Ben Lavender', 'Gregg Kellogg', 'Tom Johnson']
   gem.email              = 'public-rdf-ruby@w3.org'
