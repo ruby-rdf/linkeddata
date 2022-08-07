@@ -11,20 +11,21 @@ consuming [Linked Data][] with Ruby as quick & easy as possible.
 ## Features
 
 * Includes [N-Triples][] and [N-Quads][] support using [RDF.rb][].
+* Includes [JSON-LD][] support using the [JSON::LD][] and [JSON::LD::Preloaded] gems.
+* Includes [RDFa][] support using the [RDF::RDFa][] gem.
 * Includes [RDF/XML][] support using the [RDF::RDFXML][] gem.
 * Includes [Microdata][] support using the [RDF::Microdata][] gem.
 * Includes [Notation3][] support using the [RDF::N3][] gem.
-* Includes [RDF Dataset Normalization][Normalization] support using the [RDF::Normalize][] gem.
-* Includes  [RDFS][], [schema.org][] and limited [OWL][] reasoning using the [RDF::Reasoner][] gem.
-* Includes [RDFa][] support using the [RDF::RDFa][] gem.
-* Includes [RDF/JSON][] support using the [RDF::JSON][] gem.
-* Includes [SHACL][] support using the [SHACL][] gem.
-* Includes [ShEx][] support using the [ShEx][] gem.
 * Includes [TriG][] support using the [RDF::TriG][] gem.
 * Includes [TriX][] support using the [RDF::TriX][] gem.
 * Includes [Turtle][] support using the [RDF::Turtle][] gem.
-* Includes [JSON-LD][] support using the [JSON::LD][] and [JSON::LD::Preloaded] gems.
 * Includes [CSVW][] support for tabular data using the [RDF::Tabular][] gem.
+* Includes [YAML-LD][] support using the [YAML_LD][]  gem.
+* Includes [RDF Dataset Normalization][Normalization] support using the [RDF::Normalize][] gem.
+* Includes  [RDFS][], [schema.org][] and limited [OWL][] reasoning using the [RDF::Reasoner][] gem.
+* Includes [RDF/JSON][] support using the [RDF::JSON][] gem.
+* Includes [SHACL][] support using the [SHACL][] gem.
+* Includes [ShEx][] support using the [ShEx][] gem.
 * Includes [LD Patch][] support using the [LD::Patch][] gem.
 * Includes Aggregate Repository support using [RDF::AggregateRepo][], which allows graphs and repositories to be aggregated from multiple sources.
 * Includes [SPARQL][] support using the [SPARQL][SPARQL gem] and [SPARQL::Client][] gems
@@ -132,6 +133,7 @@ see <http://unlicense.org/> or the accompanying {file:UNLICENSE} file.
 [ShEx gem]:           https://ruby-rdf.github.io/shex
 [SPARQL gem]:         https://ruby-rdf.github.io/sparql
 [SPARQL::Client]:     https://ruby-rdf.github.io/sparql-client
+[YAML_LD]:           https://ruby-rdf.github.io/yaml-ld
 
 [Linked Data]:        http://linkeddata.org/
 [CSVW]:               https://www.w3.org/standards/techs/csv#w3c_all
@@ -157,3 +159,4 @@ see <http://unlicense.org/> or the accompanying {file:UNLICENSE} file.
 [TriX]:               http://www.w3.org/2004/03/trix/
 [Turtle]:             http://www.w3.org/TR/turtle/
 [XSD Datatypes]: http://www.w3.org/TR/2004/REC-xmlschema-2-20041028/#built-in-datatypes
+[YAML-LD]: https://json-ld.github.io/yaml-ld/spec

@@ -10,6 +10,9 @@ module LinkedData
   # @see https://rubygems.org/gems/json-ld-preloaded
   require 'json/ld/preloaded'
 
+  # @see https://rubygems.org/gems/ld-patch
+  require 'ld/patch'
+
   # @see https://rubygems.org/gems/rdf-aggregate-repo
   require 'rdf/aggregate_repo'
 
@@ -73,8 +76,8 @@ module LinkedData
   # @see https://rubygems.org/gems/sparql-client
   require 'sparql/client'
 
-  # @see https://rubygems.org/gems/ld-patch
-  require 'ld/patch'
+  # @see https://rubygems.org/gems/yaml-ld
+  require 'yaml_ld'
 
   include RDF
 end
