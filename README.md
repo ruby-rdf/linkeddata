@@ -4,8 +4,6 @@ This is a meta-distribution of [RDF.rb][] including all currently available
 and usable parsing/serialization extensions, intended to make producing and
 consuming [Linked Data][] with Ruby as quick & easy as possible.
 
-* <http://www.rubydoc.info/github/ruby-rdf/linkeddata>
-
 [![Gem Version](https://badge.fury.io/rb/linkeddata.png)](http://badge.fury.io/rb/linkeddata)
 [![Build Status](https://github.com/ruby-rdf/linkeddata/workflows/CI/badge.svg?branch=develop)](https://github.com/ruby-rdf/linkeddata/actions?query=workflow%3ACI)
 [![Gitter chat](https://badges.gitter.im/ruby-rdf/rdf.png)](https://gitter.im/ruby-rdf/rdf)
@@ -13,20 +11,21 @@ consuming [Linked Data][] with Ruby as quick & easy as possible.
 ## Features
 
 * Includes [N-Triples][] and [N-Quads][] support using [RDF.rb][].
+* Includes [JSON-LD][] support using the [JSON::LD][] and [JSON::LD::Preloaded] gems.
+* Includes [RDFa][] support using the [RDF::RDFa][] gem.
 * Includes [RDF/XML][] support using the [RDF::RDFXML][] gem.
 * Includes [Microdata][] support using the [RDF::Microdata][] gem.
 * Includes [Notation3][] support using the [RDF::N3][] gem.
-* Includes [RDF Dataset Normalization][Normalization] support using the [RDF::Normalize][] gem.
-* Includes  [RDFS][], [schema.org][] and limited [OWL][] reasoning using the [RDF::Reasoner][] gem.
-* Includes [RDFa][] support using the [RDF::RDFa][] gem.
-* Includes [RDF/JSON][] support using the [RDF::JSON][] gem.
-* Includes [SHACL][] support using the [SHACL][] gem.
-* Includes [ShEx][] support using the [ShEx][] gem.
 * Includes [TriG][] support using the [RDF::TriG][] gem.
 * Includes [TriX][] support using the [RDF::TriX][] gem.
 * Includes [Turtle][] support using the [RDF::Turtle][] gem.
-* Includes [JSON-LD][] support using the [JSON::LD][] and [JSON::LD::Preloaded] gems.
 * Includes [CSVW][] support for tabular data using the [RDF::Tabular][] gem.
+* Includes [YAML-LD][] support using the [YAML_LD][]  gem.
+* Includes [RDF Dataset Normalization][Normalization] support using the [RDF::Normalize][] gem.
+* Includes  [RDFS][], [schema.org][] and limited [OWL][] reasoning using the [RDF::Reasoner][] gem.
+* Includes [RDF/JSON][] support using the [RDF::JSON][] gem.
+* Includes [SHACL][] support using the [SHACL][] gem.
+* Includes [ShEx][] support using the [ShEx][] gem.
 * Includes [LD Patch][] support using the [LD::Patch][] gem.
 * Includes Aggregate Repository support using [RDF::AggregateRepo][], which allows graphs and repositories to be aggregated from multiple sources.
 * Includes [SPARQL][] support using the [SPARQL][SPARQL gem] and [SPARQL::Client][] gems
@@ -108,32 +107,33 @@ see <http://unlicense.org/> or the accompanying {file:UNLICENSE} file.
 [YARD-GS]:          https://rubydoc.info/docs/yard/file/docs/GettingStarted.md
 [PDD]:              https://unlicense.org/#unlicensing-contributions
 
-[RDF.rb]:             http://www.rubydoc.info/github/ruby-rdf/rdf
-[RDF::AggregateRepo]: http://www.rubydoc.info/github/ruby-rdf/rdf-aggregate-repo
-[RDF::HamsterRepo]:    http://www.rubydoc.info/github/ruby-rdf/rdf-hamster-repo
-[RDF::Isomorphic]:    http://www.rubydoc.info/github/ruby-rdf/rdf-isomorphic
-[RDF::JSON]:          http://www.rubydoc.info/github/ruby-rdf/rdf-json
-[RDF::Microdata]:     http://www.rubydoc.info/github/ruby-rdf/rdf-microdata
-[RDF::N3]:            http://www.rubydoc.info/github/ruby-rdf/rdf-n3
-[RDF::Normalize]:     http://www.rubydoc.info/github/ruby-rdf/rdf-normalize
-[RDF::Ordredepo]:    http://www.rubydoc.info/github/ruby-rdf/rdf-ordered-repo
-[RDF::Raptor]:        http://www.rubydoc.info/github/ruby-rdf/rdf-raptor
-[RDF::RDFa]:          http://www.rubydoc.info/github/ruby-rdf/rdf-rdfa
-[RDF::RDFXML]:        http://www.rubydoc.info/github/ruby-rdf/rdf-rdfxml
-[RDF::Reasoner]:      http://www.rubydoc.info/github/ruby-rdf/rdf-reasoner
-[RDF::Tabular]:       http://www.rubydoc.info/github/ruby-rdf/rdf-tabular
-[RDF::TriG]:          http://www.rubydoc.info/github/ruby-rdf/rdf-trig
-[RDF::TriX]:          http://www.rubydoc.info/github/ruby-rdf/rdf-trix
-[RDF::Turtle]:        http://www.rubydoc.info/github/ruby-rdf/rdf-turtle
-[RDF::Vocab]:         http://www.rubydoc.info/github/ruby-rdf/rdf-vocab
-[RDF::XSD]:           http://www.rubydoc.info/github/ruby-rdf/rdf-xsd
-[JSON::LD]:           http://www.rubydoc.info/github/ruby-rdf/json-ld
-[JSON::LD::Preloaded]: http://www.rubydoc.info/github/ruby-rdf/json-ld-preloaded
-[LD::Patch]:          http://www.rubydoc.info/github/ruby-rdf/ld-patch
-[SHACL gem]:           http://www.rubydoc.info/github/ruby-rdf/shacl
-[ShEx gem]:           http://www.rubydoc.info/github/ruby-rdf/shex
-[SPARQL gem]:         http://www.rubydoc.info/github/ruby-rdf/sparql
-[SPARQL::Client]:     http://www.rubydoc.info/github/ruby-rdf/sparql-client
+[RDF.rb]:             https://ruby-rdf.github.io/rdf
+[RDF::AggregateRepo]: https://ruby-rdf.github.io/rdf-aggregate-repo
+[RDF::HamsterRepo]:    https://ruby-rdf.github.io/rdf-hamster-repo
+[RDF::Isomorphic]:    https://ruby-rdf.github.io/rdf-isomorphic
+[RDF::JSON]:          https://ruby-rdf.github.io/rdf-json
+[RDF::Microdata]:     https://ruby-rdf.github.io/rdf-microdata
+[RDF::N3]:            https://ruby-rdf.github.io/rdf-n3
+[RDF::Normalize]:     https://ruby-rdf.github.io/rdf-normalize
+[RDF::Ordredepo]:    https://ruby-rdf.github.io/rdf-ordered-repo
+[RDF::Raptor]:        https://ruby-rdf.github.io/rdf-raptor
+[RDF::RDFa]:          https://ruby-rdf.github.io/rdf-rdfa
+[RDF::RDFXML]:        https://ruby-rdf.github.io/rdf-rdfxml
+[RDF::Reasoner]:      https://ruby-rdf.github.io/rdf-reasoner
+[RDF::Tabular]:       https://ruby-rdf.github.io/rdf-tabular
+[RDF::TriG]:          https://ruby-rdf.github.io/rdf-trig
+[RDF::TriX]:          https://ruby-rdf.github.io/rdf-trix
+[RDF::Turtle]:        https://ruby-rdf.github.io/rdf-turtle
+[RDF::Vocab]:         https://ruby-rdf.github.io/rdf-vocab
+[RDF::XSD]:           https://ruby-rdf.github.io/rdf-xsd
+[JSON::LD]:           https://ruby-rdf.github.io/json-ld
+[JSON::LD::Preloaded]: https://ruby-rdf.github.io/json-ld-preloaded
+[LD::Patch]:          https://ruby-rdf.github.io/ld-patch
+[SHACL gem]:           https://ruby-rdf.github.io/shacl
+[ShEx gem]:           https://ruby-rdf.github.io/shex
+[SPARQL gem]:         https://ruby-rdf.github.io/sparql
+[SPARQL::Client]:     https://ruby-rdf.github.io/sparql-client
+[YAML_LD]:           https://ruby-rdf.github.io/yaml-ld
 
 [Linked Data]:        http://linkeddata.org/
 [CSVW]:               https://www.w3.org/standards/techs/csv#w3c_all
@@ -159,3 +159,4 @@ see <http://unlicense.org/> or the accompanying {file:UNLICENSE} file.
 [TriX]:               http://www.w3.org/2004/03/trix/
 [Turtle]:             http://www.w3.org/TR/turtle/
 [XSD Datatypes]: http://www.w3.org/TR/2004/REC-xmlschema-2-20041028/#built-in-datatypes
+[YAML-LD]: https://json-ld.github.io/yaml-ld/spec
