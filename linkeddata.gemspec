@@ -52,7 +52,7 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency     'shex',                '~> 0.7', '>= 0.7.1'
   gem.add_runtime_dependency     'sparql',              '~> 3.2', '>= 3.2.4'
   gem.add_runtime_dependency     'sparql-client',       '~> 3.2', '>= 3.2.1'
-  gem.add_runtime_dependency     'nokogiri',            '~> 1.13', '>= 1.13.6'
+  gem.add_runtime_dependency     'nokogiri',            '~> 1.13', '>= 1.13.8'
   #gem.add_runtime_dependency     'equivalent-xml',      '~> 0.6'
   gem.add_runtime_dependency     'yaml-ld',             '~> 0.0'
   gem.add_development_dependency 'yard',                '~> 0.9'
