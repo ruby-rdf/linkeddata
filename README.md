@@ -4,7 +4,7 @@ This is a meta-distribution of [RDF.rb][] including all currently available
 and usable parsing/serialization extensions, intended to make producing and
 consuming [Linked Data][] with Ruby as quick & easy as possible.
 
-[![Gem Version](https://badge.fury.io/rb/linkeddata.png)](http://badge.fury.io/rb/linkeddata)
+[![Gem Version](https://badge.fury.io/rb/linkeddata.svg)](http://badge.fury.io/rb/linkeddata)
 [![Build Status](https://github.com/ruby-rdf/linkeddata/workflows/CI/badge.svg?branch=develop)](https://github.com/ruby-rdf/linkeddata/actions?query=workflow%3ACI)
 [![Gitter chat](https://badges.gitter.im/ruby-rdf/rdf.png)](https://gitter.im/ruby-rdf/rdf)
 
